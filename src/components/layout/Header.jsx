@@ -18,8 +18,8 @@ export default function Header({ onMenuToggle, menuOpen }) {
           aria-label="Logo"
           style={{
             display: "block",
-            width: "18rem",
-            height: "9rem",
+            width: "12rem",
+            height: "6rem",
             flexShrink: 0,
           }}
         >

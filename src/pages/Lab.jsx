@@ -2,30 +2,24 @@ import { useRef } from 'react'
 import { useStaggerReveal } from '../hooks/useScrollReveal'
 import Footer from '../components/layout/Footer'
 
-const labImages = [
-  'https://avdynam.com/img/work/new/Smart%20city.jpg',
-  'https://avdynam.com/img/work/new/AI%20surivellance.jpg',
-  'https://avdynam.com/img/work/new/drone.jpg',
-  'https://avdynam.com/img/work/new/projection%20mapping.jpg',
-  'https://avdynam.com/img/work/new/LED%20Display.jpg',
-  'https://avdynam.com/img/work/new/ICCC.jpg',
-  'https://avdynam.com/img/work/new/sound%20engineering.jpg',
-  'https://avdynam.com/img/work/DoME.jpeg',
-  'https://avdynam.com/img/work/new/Video%20wall.jpg',
-  'https://avdynam.com/img/work/new/smart%20pole.jpg',
-  'https://avdynam.com/img/work/new/cyber%20security.jpg',
-  'https://avdynam.com/img/work/new/Data%20centre.jpg',
-  'https://avdynam.com/img/work/new/smart%20class.jpg',
-  'https://avdynam.com/img/work/new/MCCC.jpg',
-  'https://avdynam.com/img/work/new/geo-mapping.jpg',
-  'https://avdynam.com/img/work/Emergency%20systems.jpg',
-  'https://avdynam.com/img/work/new/public%20accoument%20system.jpg',
-  'https://avdynam.com/img/work/new/Smart%20parking.jpg',
-  'https://avdynam.com/img/work/new/360%20degree.jpg',
-  'https://avdynam.com/img/work/new/LED%20sinage.jpg',
-  'https://avdynam.com/img/work/new/software%20development.jpg',
-  'https://avdynam.com/img/work/new/IoT.jpg',
-]
+import img1 from "../assets/img1.png";
+import img2 from "../assets/img2.png";
+import img3 from "../assets/img3.png";
+import img4 from "../assets/img4.png";
+
+// import drone from "../assets/work/drone.png";
+// import drone1 from "../assets/work/drone1.png";
+// import ai_surveillance from "../assets/work/ai_surveillance.png";
+// import aisurveillance1 from "../assets/work/ai-surveillance1.png";
+// import projectionmapping from "../assets/work/projection-mapping.png";
+// import projectionmapping1 from "../assets/work/projection-mapping1.png";
+// import smartcity from "../assets/work/smart-city.png";
+// import smartcity1 from "../assets/work/smart-city1.png";
+
+
+const labImages = [img1, img2, img3, img4 ,drone ,drone1, ai_surveillance, aisurveillance1,projectionmapping
+  ,projectionmapping1 , smartcity ,smartcity1
+ ];
 
 export default function Lab() {
   const heroRef = useRef(null)
@@ -45,7 +39,7 @@ export default function Lab() {
               <h1
                 className="t-line font-heading font-medium uppercase"
                 style={{
-                  fontSize: 'clamp(5rem, 8vw, 12rem)',
+                  fontSize: 'clamp(5rem, 5vw, 12rem)',
                   letterSpacing: '-0.075em',
                   lineHeight: '0.9',
                 }}
