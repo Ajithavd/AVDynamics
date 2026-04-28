@@ -17,8 +17,7 @@ import img4 from "../assets/img4.png";
 // import smartcity1 from "../assets/work/smart-city1.png";
 
 
-const labImages = [img1, img2, img3, img4 ,drone ,drone1, ai_surveillance, aisurveillance1,projectionmapping
-  ,projectionmapping1 , smartcity ,smartcity1
+const labImages = [img1, img2, img3, img4 
  ];
 
 export default function Lab() {
