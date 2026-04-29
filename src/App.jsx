@@ -1,6 +1,8 @@
 import { useState, useCallback, useRef, useEffect, useLayoutEffect } from 'react'
 import { BrowserRouter, Routes, Route, useLocation, useNavigationType } from 'react-router-dom'
 import gsap from 'gsap'
+import { SITE_STATUS } from './config'
+import Maintenance from './pages/Maintenance'
 import Header from './components/layout/Header'
 import Navigation from './components/layout/Navigation'
 import { useMenuAnimation } from './hooks/useMenuAnimation'
@@ -123,6 +125,7 @@ function AppContent() {
 }
 
 export default function App() {
+  if (SITE_STATUS === 'maintenance') return <Maintenance />
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <AppContent />
