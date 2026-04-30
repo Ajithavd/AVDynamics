@@ -85,11 +85,11 @@ export default function Maintenance() {
           © 2026 AV Dynamics
         </span>
         <a
-          href="mailto:hello@avdynam.com"
+          href="mailto:info@avdynam.com"
           className="tiny-uppercase"
           style={{ color: '#fff', textDecoration: 'none', opacity: 0.7 }}
         >
-          hello@avdynam.com
+          info@avdynam.com
         </a>
       </div>
     </div>
