@@ -2,22 +2,18 @@ import { useRef } from 'react'
 import { useStaggerReveal } from '../hooks/useScrollReveal'
 import Footer from '../components/layout/Footer'
 
-import img1 from "../assets/img1.png";
-import img2 from "../assets/img2.png";
-import img3 from "../assets/img3.png";
-import img4 from "../assets/img4.png";
-
-// import drone from "../assets/work/drone.png";
-// import drone1 from "../assets/work/drone1.png";
-// import ai_surveillance from "../assets/work/ai_surveillance.png";
-// import aisurveillance1 from "../assets/work/ai-surveillance1.png";
-// import projectionmapping from "../assets/work/projection-mapping.png";
-// import projectionmapping1 from "../assets/work/projection-mapping1.png";
-// import smartcity from "../assets/work/smart-city.png";
-// import smartcity1 from "../assets/work/smart-city1.png";
+import immersive from "../assets/IMMERSIVE.png";
+import audio from "../assets/AUDIO.png";
+import cafe from "../assets/CAFE.png";
+import solar from "../assets/SOLAR.png";
+import defence from "../assets/DEFENSE.png";
+import events from "../assets/EVENTS.png";
+// import smart from "../assets/SMART.png";
+// import visual from "../assets/VISUAL.png";
 
 
-const labImages = [img1, img2, img3, img4 
+
+const labImages = [immersive,audio,cafe,solar,events,defence,
  ];
 
 export default function Lab() {

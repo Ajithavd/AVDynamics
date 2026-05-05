@@ -1,78 +1,86 @@
-import img1 from "../assets/img1.png";
-import img2 from "../assets/img2.png";
-import img3 from "../assets/img3.png";
-import img4 from "../assets/img4.png";
+import IMMERSIVETECH from "../assets/IMMERSIVETECH.png";
+import IMMERSIVE from "../assets/IMMERSIVE.png";
+import AUDIO from "../assets/AUDIO.png";
+import VISUAL from "../assets/VISUAL.png";
+import SMART from "../assets/SMART.png";
+import DEFENSE from "../assets/DEFENSE.png";
+import EVENTS from "../assets/EVENTS.png";
+import SOLAR from "../assets/SOLAR.png";
+import CAFE from "../assets/CAFE.png";
+
+
+
 
 export const works = [
   {
-    id: "smart-city",
+    id: "IMMERSIVE TECH",
     num: "01",
-    title: "Smart City",
-    tags: ["IoT", "Architecture", "Implementation", "Smart Infrastructure"],
-    image: img1,
-    aspect: "aspect-16-9",
+    title: "IMMERSIVE TECH",
+    tags: ["Theaters", "180°/360° environments", "Dome", "Led 270°"],
+    image: IMMERSIVE,
+    aspect: "aspect-1-1",
     align: "right",
   },
   {
-    id: "ai-surveillance",
+    id: "AUDIO & ACOUSTIC",
     num: "02",
-    title: "AI Surveillance",
-    tags: ["AI", "Security", "Analytics", "Technology"],
-    image: img3,
-    aspect: "aspect-4-3",
+    title: "AUDIO & ACOUSTIC",
+    tags: ["Dome", "Precision sound systems"],
+    image: AUDIO,
+    aspect: "aspect-16-9",
     align: "left",
   },
   {
-    id: "drones-solutions",
+    id: " VISUAL SYSTEMS",
     num: "03",
-    title: "Drones & Solutions",
-    tags: ["Drones", "AI", "Defence", "Surveillance"],
-    image: img2,
+    title: " VISUAL SYSTEMS",
+    tags: ["Projection mapping", " Laser shows", " LED video walls"],
+    image: VISUAL,
     aspect: "aspect-1-1",
     align: "right",
   },
   {
-    id: "projection-mapping",
+    id: "SMART CITY INFRA",
     num: "04",
-    title: "Projection Mapping",
-    tags: ["AV", "Events", "Display", "Creative"],
-    image: img4,
+    title: "SMART CITY INFRA",
+    tags: ["CCTV networks", "Command centers", "Smart classrooms"],
+    image: SMART,
     aspect: "aspect-16-9",
     align: "left",
   },
   {
-    id: "led-displays",
+    id: " DEFENSE & HIGH-TECH",
     num: "05",
-    title: "LED Displays",
-    tags: ["Display", "AV", "Advertising", "Technology"],
-    image: "https://avdynam.com/img/work/new/LED%20Display.jpg",
+    title: " DEFENSE & HIGH-TECH",
+    tags: ["Simulators", " Runway monitoring", "Surveillance"],
+    image: DEFENSE,
     aspect: "aspect-4-3",
     align: "right",
   },
   {
-    id: "iccc",
+    id: " EVENTS & GLOBAL",
     num: "06",
-    title: "ICCC",
-    tags: ["Smart City", "Architecture", "Government", "Implementation"],
-    image: "https://avdynam.com/img/work/new/ICCC.jpg",
+    title: " EVENTS & GLOBAL",
+    tags: ["AVARAE", "AVARAE_2"],
+    image: EVENTS,
     aspect: "aspect-16-9",
     align: "left",
   },
   {
-    id: "sound-engineering",
+    id: "SOLAR",
     num: "07",
-    title: "Sound Engineering",
+    title: "SOLAR",
     tags: ["Audio", "AV", "Events", "Design"],
-    image: "https://avdynam.com/img/work/new/sound%20engineering.jpg",
+    image: SOLAR,
     aspect: "aspect-1-1",
     align: "right",
   },
   {
-    id: "dome-projections",
+    id: "HOSPITALITY EXPERIENCE",
     num: "08",
-    title: "Dome Projections",
-    tags: ["AV", "Events", "Immersive", "Display"],
-    image: "https://avdynam.com/img/work/DoME.jpeg",
+    title: "HOSPITALITY EXPERIENCE",
+    tags: ["Alchemist the lake viewery", "Asis"],
+    image: CAFE,
     aspect: "aspect-4-3",
     align: "left",
   },
@@ -132,4 +140,4 @@ export const works = [
   },
 ];
 
-export const featuredWorks = works.slice(0, 4);
+export const featuredWorks = works.slice(0, 8);

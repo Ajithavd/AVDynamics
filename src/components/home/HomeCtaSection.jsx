@@ -14,10 +14,9 @@ export default function HomeCtaSection() {
             className="font-body leading-[1.1] t-line"
             style={{ fontSize: "clamp(2rem, 3vw, 12rem)" }}
           >
-            Through AI surveillance, advanced drone technology, and smart city
-            architecture, we design, build, and implement solutions that power
-            the connected future — serving governments, enterprises, and Fortune
-            500 companies worldwide.
+            AV Dynamics is a full-stack solution provider integrating Technology,
+             Infrastructure, and Experience Design. We operate across IT + Non-IT 
+             ecosystems and specialize in large-scale, highvalue projects
           </p>
         </div>
         {/* <div className="mt-[5rem]">
