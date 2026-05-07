@@ -7,7 +7,8 @@ import VIDEO_SRC from "../../assets/vid.mp4";
 const navLinks = [
   { label: "HOME", to: "/" },
   // { label: "WORK", to: "/works" },
-  // { label: "ABOUT", to: "/about" },
+  { label: "ABOUT", to: "/about" },
+  { label: "PRODUCTS", to: "/products" },
   { label: "CONTACT", to: "/contact" },
   { label: "LAB", to: "/lab" },
 ];

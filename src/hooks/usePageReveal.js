@@ -53,12 +53,30 @@ export function useInitialLoad(overlayRef, _contentRef, deps = []) {
     if (!overlayRef?.current) return
 
     const el = overlayRef.current
+
+    // If our ancestor is currently hidden (because the App back-transition has
+    // set routesRef to autoAlpha:0), skip the intro entirely — the back-transition
+    // owns the reveal, and animating here would clobber the black overlay
+    // (this overlay sits at z:9999, above the back overlay at z:9990).
+    // Note: useNavigationType() returns 'POP' on first load too, so we can't
+    // rely on it to differentiate first-load from back-nav.
+    const parent = el.parentElement
+    if (parent && window.getComputedStyle(parent).visibility === 'hidden') {
+      gsap.set(el, { autoAlpha: 0 })
+      el.style.display = 'none'
+      // The video's clipPath is hidden via JSX inline style; un-clip it manually
+      // since we're skipping the animation that normally does that.
+      const media = document.querySelector('.js-t-media')
+      if (media) gsap.set(media, { clipPath: 'inset(0% 0% 0% 0%)' })
+      return
+    }
+
     const lines = Array.from(document.querySelectorAll('.js-t-line'))
     const words = Array.from(document.querySelectorAll('.js-t-word'))
     const media = document.querySelector('.js-t-media')
 
     // Reset all initial states (critical for StrictMode second-run correctness)
-    gsap.set(el, { autoAlpha: 1 })
+    gsap.set(el, { autoAlpha: 1, display: 'block' })
     if (lines.length) gsap.set(lines, { yPercent: 105 })
     if (words.length) gsap.set(words, { yPercent: 105 })
     if (media) gsap.set(media, { clipPath: 'inset(100% 0% 0% 0%)' })

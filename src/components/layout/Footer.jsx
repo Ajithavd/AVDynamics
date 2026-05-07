@@ -49,35 +49,37 @@ export default function Footer() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Top section wipes in from its top edge downward (slides down into place)
+      // Middle section (address/contact/social) is rendered with no animation —
+      // it's the first thing visible. Top (CTA + nav) and bottom (copyright)
+      // reveal progressively, scrubbed to scroll position: as the user scrolls
+      // through the footer, the top expands upward from the middle and the
+      // bottom expands downward from the middle, both tied 1:1 to scroll.
       gsap.fromTo(
         topRef.current,
-        { clipPath: "inset(0 0 100% 0)" },
+        { clipPath: "inset(100% 0 0 0)" },
         {
-          clipPath: "inset(0 0 0% 0)",
-          duration: 1.2,
-          ease: "expo.inOut",
+          clipPath: "inset(0% 0 0 0)",
+          ease: "none",
           scrollTrigger: {
             trigger: footerRef.current,
-            start: "top 75%",
-            once: true,
+            start: "top 80%",
+            end: "bottom bottom",
+            scrub: 0.4,
           },
         },
       );
 
-      // Bottom section wipes in from its bottom edge upward (slides up into place)
       gsap.fromTo(
         bottomRef.current,
-        { clipPath: "inset(100% 0 0 0)" },
+        { clipPath: "inset(0 0 100% 0)" },
         {
-          clipPath: "inset(0% 0 0 0)",
-          duration: 1.2,
-          ease: "expo.inOut",
-          delay: 0.08,
+          clipPath: "inset(0 0 0% 0)",
+          ease: "none",
           scrollTrigger: {
             trigger: footerRef.current,
-            start: "top 75%",
-            once: true,
+            start: "top 80%",
+            end: "bottom bottom",
+            scrub: 0.4,
           },
         },
       );

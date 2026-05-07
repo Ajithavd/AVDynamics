@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import logoUrl from "../../assets/logo.png";
+import logoWhiteUrl from "../../assets/logo-white.png";
 
 export default function Header({ onMenuToggle, menuOpen }) {
   return (
@@ -12,7 +13,8 @@ export default function Header({ onMenuToggle, menuOpen }) {
       }}
     >
       <div className="flex items-center justify-between">
-        {/* Logo — no blend mode so the PNG renders with its real colours */}
+        {/* Logo — both PNGs are rendered stacked; CSS crossfades between them
+            based on body.header-dark so dark sections show the white logo. */}
         <Link
           to="/"
           aria-label="Logo"
@@ -21,16 +23,33 @@ export default function Header({ onMenuToggle, menuOpen }) {
             width: "12rem",
             height: "6rem",
             flexShrink: 0,
+            position: "relative",
           }}
         >
           <img
             src={logoUrl}
             alt="Logo"
+            className="header-logo header-logo--light"
             style={{
               width: "100%",
               height: "100%",
               objectFit: "contain",
               objectPosition: "left center",
+            }}
+          />
+          <img
+            src={logoWhiteUrl}
+            alt=""
+            aria-hidden="true"
+            className="header-logo header-logo--dark"
+            style={{
+              position: "absolute",
+              inset: 0,
+              width: "100%",
+              height: "100%",
+              objectFit: "contain",
+              objectPosition: "left center",
+              opacity: 0,
             }}
           />
         </Link>

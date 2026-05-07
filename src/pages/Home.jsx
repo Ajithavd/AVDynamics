@@ -26,15 +26,16 @@ export default function Home() {
         const words = Array.from(heroRef.current.querySelectorAll('.js-hero-word'))
         const arrow = heroRef.current.querySelector('.js-hero-arrow')
         const videoInner = heroRef.current.querySelector('.hero-video-inner')
+        if (!videoInner) return
 
-        // Single timeline — all hero scroll animations in sync
-        // defaults: duration 1 so timeline positions are fractional (0–1 = 0%–100%)
+        // Trigger off the video itself so the expansion completes exactly when
+        // the video's top edge reaches the top of the viewport.
         const tl = gsap.timeline({
           defaults: { duration: 1, ease: 'none' },
           scrollTrigger: {
-            trigger: heroRef.current,
-            start: 'top top',
-            end: '+=40%',   // half the original distance
+            trigger: videoInner,
+            start: 'top bottom',
+            end: 'top top',
             scrub: 1,
           },
         })
@@ -45,7 +46,7 @@ export default function Home() {
         })
 
         // Video inner wrapper expands 75% → 100% over full scroll
-        if (videoInner) tl.to(videoInner, { width: '100%' }, 0)
+        tl.to(videoInner, { width: '100%' }, 0)
 
         // Arrow fades out only in the last 25% (when video is ~94% wide)
         if (arrow) tl.to(arrow, { autoAlpha: 0, duration: 0.25 }, 0.75)

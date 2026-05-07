@@ -1,5 +1,5 @@
 import { useRef, useEffect } from 'react'
-import { useParams, useLocation, Link } from 'react-router-dom'
+import { useParams, useLocation, useNavigate } from 'react-router-dom'
 import gsap from 'gsap'
 import { works } from '../data/works'
 import { workDetails, generateFallback } from '../data/workDetails'
@@ -10,13 +10,48 @@ import Button from '../components/ui/Button'
 export default function WorkDetail() {
   const { id } = useParams()
   const location = useLocation()
+  const navigate = useNavigate()
   const work = works.find((w) => w.id === id)
   const detail = workDetails[id] ?? (work ? generateFallback(work) : null)
+
+  // Resolve the next work: honour an explicit detail.nextWork if it points to
+  // a known work, otherwise fall back to the next entry in the works array
+  // (wrapping the last work back to the first) so every detail page has a Next.
+  let nextWork = null
+  if (work) {
+    if (detail?.nextWork) {
+      nextWork = works.find((w) => w.id === detail.nextWork.id) ?? null
+    }
+    if (!nextWork) {
+      const idx = works.findIndex((w) => w.id === id)
+      if (idx >= 0) nextWork = works[(idx + 1) % works.length]
+    }
+  }
 
   const pageRef = useRef(null)
   const heroImgRef = useRef(null)
   const overlayRef = useRef(null)
   const cloneRef = useRef(null)
+  const nextFigureRef = useRef(null)
+
+  const handleNextClick = () => {
+    if (!nextWork) return
+    const figure = nextFigureRef.current
+    const srcRect = figure ? figure.getBoundingClientRect() : null
+    navigate(`/work/${nextWork.id}`, {
+      state: srcRect
+        ? {
+            srcRect: {
+              top: srcRect.top,
+              left: srcRect.left,
+              width: srcRect.width,
+              height: srcRect.height,
+            },
+            imageSrc: nextWork.image,
+          }
+        : undefined,
+    })
+  }
 
   // Scroll to top on every navigation to this page
   useEffect(() => { window.scrollTo(0, 0) }, [id])
@@ -129,13 +164,17 @@ export default function WorkDetail() {
         {/* ── HERO: full-width title + 2-col split (meta left, image right) ── */}
         <section className="site-grid pt-[17.5rem] s:pt-[22.5rem]">
           {/* Full-width H1 title */}
-          <div className="col-span-12 s:col-start-2 s:col-span-33 overflow-hidden">
+          <div
+            className="col-span-12 s:col-start-2 s:col-span-33"
+            style={{ overflowY: 'clip', overflowX: 'visible', paddingBottom: '0.15em' }}
+          >
             <h1
               className="js-t-line font-heading font-medium uppercase"
               style={{
-                fontSize: 'clamp(4rem, 8vw, 40rem)',
-                letterSpacing: '-0.075em',
-                lineHeight: 0.85,
+                fontSize: 'clamp(3.5rem, 6.5vw, 14rem)',
+                letterSpacing: '-0.05em',
+                lineHeight: 0.9,
+                wordBreak: 'break-word',
               }}
             >
               {work.title}
@@ -209,45 +248,71 @@ export default function WorkDetail() {
           </div>
         </section>
 
-        {/* ── BODY SECTIONS ── */}
-        {detail.sections?.map((section, i) => (
-          <section key={i} className="site-grid mt-[10rem] s:mt-[18rem]">
-            <div className="col-span-12 s:col-start-4 s:col-span-26">
-              <div className="overflow-hidden">
-                <h3
-                  className="js-t-line font-heading font-medium uppercase"
+        {/* ── PROJECTS ── image left, text right; one row per sub-project ── */}
+        {detail.projects?.length > 0 &&
+          detail.projects.map((project, i) => (
+            <section
+              key={i}
+              className="site-grid mt-[10rem] s:mt-[18rem]"
+            >
+              {/* Image (left) */}
+              <div className="col-span-12 s:col-start-4 s:col-span-15 s:self-center">
+                <div
+                  className="relative js-t-media overflow-hidden"
                   style={{
-                    fontSize: 'clamp(2.8rem, 3.5vw, 8rem)',
-                    letterSpacing: '-0.05em',
-                    lineHeight: 0.9,
+                    borderRadius: '1.5rem',
+                    aspectRatio: '4 / 3',
+                    width: '100%',
                   }}
                 >
-                  {section.heading}
-                </h3>
-              </div>
-              <p
-                className="js-t-fade font-body mt-[3rem] leading-[1.7]"
-                style={{ fontSize: 'clamp(1.5rem, 1.2vw, 2rem)', maxWidth: '72rem' }}
-              >
-                {section.body}
-              </p>
-              {section.image && (
-                <div
-                  className="relative mt-[5rem] js-t-media overflow-hidden"
-                  style={{ borderRadius: '1.5rem' }}
-                >
-                  <div className="aspect-box aspect-16-9" />
                   <img
-                    src={section.image}
-                    alt={section.heading}
-                    className="img-fill"
+                    src={project.image}
+                    alt={project.title}
                     loading="lazy"
+                    style={{
+                      position: 'absolute',
+                      inset: 0,
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover',
+                      display: 'block',
+                    }}
                   />
                 </div>
-              )}
-            </div>
-          </section>
-        ))}
+              </div>
+
+              {/* Text (right) — vertically centred against the image on desktop */}
+              <div className="col-span-12 s:col-start-20 s:col-span-14 mt-[3rem] s:mt-0 s:self-center">
+                <div
+                  style={{
+                    overflowY: 'clip',
+                    overflowX: 'visible',
+                    paddingBottom: '0.1em',
+                  }}
+                >
+                  <h3
+                    className="js-t-line font-heading font-medium uppercase"
+                    style={{
+                      fontSize: 'clamp(2.4rem, 3vw, 5.5rem)',
+                      letterSpacing: '-0.04em',
+                      lineHeight: 0.95,
+                    }}
+                  >
+                    {project.title}
+                  </h3>
+                </div>
+                <p
+                  className="js-t-fade font-body mt-[2.5rem] leading-[1.7]"
+                  style={{
+                    fontSize: 'clamp(1.4rem, 1.1vw, 1.8rem)',
+                    maxWidth: '52rem',
+                  }}
+                >
+                  {project.description}
+                </p>
+              </div>
+            </section>
+          ))}
 
         {/* ── TESTIMONIAL ── */}
         {detail.testimonial && (
@@ -297,34 +362,71 @@ export default function WorkDetail() {
           </section>
         )}
 
-        {/* ── NEXT PROJECT ── */}
-        {detail.nextWork && (
+        {/* ── NEXT PROJECT ── click triggers the same image-clone transition
+            as the home-page work cards: figure rect is captured, navigate
+            with state, and the entrance animation re-fires on id change. */}
+        {nextWork && (
           <section className="site-grid mt-[15rem] s:mt-[25rem] pb-[8rem]">
-            <div className="col-span-12 s:col-start-4 s:col-span-28">
+            {/* Title side */}
+            <div
+              className="col-span-12 s:col-start-4 s:col-span-19 cursor-pointer"
+              role="link"
+              tabIndex={0}
+              onClick={handleNextClick}
+              onKeyDown={(e) => e.key === 'Enter' && handleNextClick()}
+            >
               <hr style={{ borderColor: 'rgba(0,0,0,0.15)', borderTopWidth: '1px' }} />
               <div className="pt-[4rem]">
                 <span className="small-uppercase block mb-[2rem]" style={{ opacity: 0.45 }}>
                   Next Project
                 </span>
-                <Link
-                  to={`/work/${detail.nextWork.id}`}
-                  className="block"
-                  style={{ textDecoration: 'none', color: 'inherit' }}
-                >
-                  <div className="overflow-hidden">
-                    <h2
-                      className="js-t-line font-heading font-medium uppercase"
-                      style={{
-                        fontSize: 'clamp(4rem, 8vw, 40rem)',
-                        letterSpacing: '-0.075em',
-                        lineHeight: 0.85,
-                      }}
-                    >
-                      {detail.nextWork.title}
-                    </h2>
-                  </div>
-                </Link>
+                <div style={{ overflowY: 'clip', overflowX: 'visible', paddingBottom: '0.15em' }}>
+                  <h2
+                    className="js-t-line font-heading font-medium uppercase"
+                    style={{
+                      fontSize: 'clamp(3.5rem, 6.5vw, 14rem)',
+                      letterSpacing: '-0.05em',
+                      lineHeight: 0.9,
+                      wordBreak: 'break-word',
+                    }}
+                  >
+                    {nextWork.title}
+                  </h2>
+                </div>
               </div>
+            </div>
+
+            {/* Image preview (right) — figure rect is the clone's start position */}
+            <div
+              className="col-span-12 s:col-start-25 s:col-span-9 mt-[3rem] s:mt-0 s:self-end cursor-pointer"
+              role="link"
+              tabIndex={0}
+              onClick={handleNextClick}
+              onKeyDown={(e) => e.key === 'Enter' && handleNextClick()}
+            >
+              <figure
+                ref={nextFigureRef}
+                className="relative m-0 p-0"
+                style={{
+                  aspectRatio: '4 / 3',
+                  borderRadius: '1.5rem',
+                  overflow: 'hidden',
+                }}
+              >
+                <img
+                  src={nextWork.image}
+                  alt={nextWork.title}
+                  loading="lazy"
+                  style={{
+                    position: 'absolute',
+                    inset: 0,
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    display: 'block',
+                  }}
+                />
+              </figure>
             </div>
           </section>
         )}

@@ -50,7 +50,7 @@ function WorkCard({ work }) {
         className={[
           'col-span-12 hidden s:flex flex-col justify-center',
           isRight
-            ? 's:col-start-1 s:col-span-17 s:order-first'
+            ? 's:col-start-1 s:col-span-17 s:order-first s:text-right s:items-end'
             : 's:col-start-22 s:col-span-13',
         ].join(' ')}
       >

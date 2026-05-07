@@ -125,17 +125,36 @@
 // }
 
 
-import smartCityImg from "../assets/work/smart-city.png";
-import smartCityImg1 from "../assets/work/smart-city1.png";
-import aiImg from "../assets/work/ai-surveillance.png";
-import aiImg1 from "../assets/work/ai-surveillance1.png";
-import droneImg from "../assets/work/drone.png";
-import droneImg1 from "../assets/work/drone1.png";
-import projectionImg from "../assets/work/projection-mapping.png";
-import projectionImg1 from "../assets/work/projection-mapping1.png";
+import immersiveTechImg from "../assets/IMMERSIVETECH.png";
+import hero3Img from "../assets/hero3.png";
 
 
 export const workDetails = {
+  'IMMERSIVE TECH': {
+    subtitle:
+      'Theatre-grade immersive environments — domes, 180°/360° spaces, and large-format LED — engineered for unforgettable spatial storytelling.',
+    intro:
+      'We design and deliver end-to-end immersive technology installations: from architectural integration and AV systems engineering through to content authoring and operator handover. Our installations turn rooms into worlds, and worlds into memorable experiences.',
+    liveUrl: null,
+    recognition: [],
+    testimonial: null,
+    projects: [
+      {
+        title: 'Dome Theatre Showcase',
+        description:
+          'A 14-metre fulldome immersive theatre delivering 8K-per-eye content for a flagship visitor experience — designed, calibrated, and commissioned end to end.',
+        image: immersiveTechImg,
+      },
+      {
+        title: '270° LED Briefing Suite',
+        description:
+          'A wraparound 270° LED room with calibrated audio and integrated showcontrol, used for executive briefings, simulations, and high-profile product launches.',
+        image: hero3Img,
+      },
+    ],
+    nextWork: { id: 'AUDIO & ACOUSTIC', title: 'Audio & Acoustic' },
+  },
+
   'smart-city': {
     subtitle:
       'End-to-end smart city architecture that connects citizens, services, and government into one intelligent ecosystem.',
@@ -143,19 +162,21 @@ export const workDetails = {
       'We design, implement, and support integrated command centre infrastructure for smart cities — bringing cutting-edge digital services to citizens and government bodies.',
     liveUrl: null,
     recognition: [],
-    sections: [
+    testimonial: null,
+    projects: [
       {
-        heading: 'ARCHITECTURE & DESIGN',
-        body: 'Our smart city solutions begin with deep urban analysis and stakeholder consultation...',
-        image: smartCityImg,
+        title: 'Chennai Command Centre',
+        description:
+          'Integrated traffic, surveillance, and emergency response platform serving 8M+ residents across the metro region — unified into a single operations dashboard.',
+        image: immersiveTechImg,
       },
       {
-        heading: 'IMPLEMENTATION & SUPPORT',
-        body: 'From procurement and infrastructure setup to network integration...',
-        image: smartCityImg1,
+        title: 'Pune Mobility Grid',
+        description:
+          'Real-time public transit and parking intelligence with multi-modal data integration, helping commuters and city operators alike make better decisions.',
+        image: hero3Img,
       },
     ],
-    testimonial: null,
     // gallery: [smartCityImg],
     nextWork: { id: 'ai-surveillance', title: 'AI Surveillance' },
   },
@@ -167,19 +188,21 @@ export const workDetails = {
       'Our AI surveillance systems leverage computer vision, deep learning, and edge processing.',
     liveUrl: null,
     recognition: [],
-    sections: [
+    testimonial: null,
+    projects: [
       {
-        heading: 'AI-DRIVEN ANALYTICS',
-        body: 'Beyond traditional CCTV, our systems apply machine learning models...',
-        image: aiImg,
+        title: 'Airport Perimeter Watch',
+        description:
+          'AI-driven anomaly detection across 12 km of airport perimeter, cutting manual monitoring overhead by 80% while raising detection accuracy.',
+        image: immersiveTechImg,
       },
       {
-        heading: 'ETHICAL DEPLOYMENT',
-        body: 'We prioritise privacy-conscious design in every surveillance deployment.',
-        image: aiImg1,
+        title: 'Border Intelligence Grid',
+        description:
+          'Multi-spectral surveillance combining edge AI cameras with thermal imaging for autonomous round-the-clock threat assessment.',
+        image: hero3Img,
       },
     ],
-    testimonial: null,
     // gallery: [aiImg],
     nextWork: { id: 'drones-solutions', title: 'Drones & Solutions' },
   },
@@ -191,19 +214,21 @@ export const workDetails = {
       'AV Dynamics delivers fully integrated drone systems combining advanced hardware with AI-powered software.',
     liveUrl: null,
     recognition: [],
-    sections: [
+    testimonial: null,
+    projects: [
       {
-        heading: 'MULTI-DOMAIN APPLICATIONS',
-        body: 'Our drone solutions serve a wide range of industries and mission types.',
-        image: droneImg,
+        title: 'Agricultural Mapping Fleet',
+        description:
+          'Precision crop monitoring across 50,000 hectares of farmland, delivering yield-optimisation insights to over 200 farms in a single growing season.',
+        image: immersiveTechImg,
       },
       {
-        heading: 'END-TO-END DELIVERY',
-        body: 'From system design and hardware integration through to software development...',
-        image: droneImg1,
+        title: 'Last-Mile Delivery Network',
+        description:
+          'Pilot urban delivery programme covering 14 km² with autonomous routing and real-time logistics integration with partner fulfilment centres.',
+        image: hero3Img,
       },
     ],
-    testimonial: null,
     // gallery: [droneImg],
     // nextWork: { id: 'projection-mapping', title: 'Projection Mapping' },
   },
@@ -215,20 +240,22 @@ export const workDetails = {
       'Our projection mapping services bring brand experiences and architectural facades to life.',
     liveUrl: null,
     recognition: [],
-    sections: [
+    testimonial: null,
+    projects: [
       {
-        heading: 'CREATIVE & TECHNICAL EXCELLENCE',
-        body: 'Projection mapping sits at the intersection of art and engineering.',
-        image: projectionImg,
+        title: 'Heritage Facade Spectacle',
+        description:
+          'Large-format architectural projection on a 200m heritage facade for an audience of 50,000+ across three sold-out nights.',
+        image: immersiveTechImg,
       },
       {
-        heading: 'END-TO-END PRODUCTION',
-        body: 'From concept and 3D surface modelling through content production...',
-        image: projectionImg1,
+        title: 'Brand Launch Showcase',
+        description:
+          'Multi-surface immersive product reveal combining projection mapping, kinetic lighting, and synchronised sound design for a flagship launch.',
+        image: hero3Img,
       },
     ],
-    testimonial: null,
-    // gallery: [projectionImg], 
+    // gallery: [projectionImg],
     // nextWork: { id: 'smart-city', title: 'Smart City' },
   },
 };
@@ -240,19 +267,21 @@ export function generateFallback(work) {
       'We bring deep technical expertise and global project experience to every engagement.',
     liveUrl: null,
     recognition: [],
-    sections: [
+    testimonial: null,
+    projects: [
       {
-        heading: 'OUR APPROACH',
-        body: 'Every project begins with a thorough needs assessment.',
-        image: null,
+        title: `${work.title} — Featured Install`,
+        description:
+          'A flagship deployment showcasing the full capability stack — designed, integrated, and commissioned end to end for a high-profile client engagement.',
+        image: immersiveTechImg,
       },
       {
-        heading: 'DELIVERY & SUPPORT',
-        body: 'We manage the full implementation lifecycle.',
-        image: null,
+        title: `${work.title} — Operational Rollout`,
+        description:
+          'Phased operational rollout across multiple sites, with handover, training, and ongoing support packaged into a single delivery programme.',
+        image: hero3Img,
       },
     ],
-    testimonial: null,
     gallery: [work.image],
     nextWork: null,
   };
