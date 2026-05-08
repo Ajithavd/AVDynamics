@@ -125,164 +125,255 @@
 // }
 
 
-import immersiveTechImg from "../assets/IMMERSIVETECH.png";
-import hero3Img from "../assets/hero3.png";
+  import immersiveTechImg from "../assets/IMMERSIVETECH.png";
+  import hero3Img from "../assets/hero3.png";
+  import led1 from "../assets/led1.jpeg"
+  import audio1 from "../assets/audio1.jpeg"
+  import klbuild from "../assets/klbuild.png"
+  import murugan from "../assets/murugan.png"
+  import smart1 from "../assets/smart1.jpeg"
+  import smart2 from "../assets/smart2.jpeg"
+  import smart3 from "../assets/smart3.jpeg"
+  import defense1 from "../assets/defense1.jpeg"
+  import defense2 from "../assets/defense2.jpeg"
+  import defense3 from "../assets/defense3.jpeg"
+  import solar1 from "../assets/solar1.jpeg"
+  import solar2 from "../assets/solar2.jpeg"
 
 
-export const workDetails = {
-  'IMMERSIVE TECH': {
-    subtitle:
-      'Theatre-grade immersive environments — domes, 180°/360° spaces, and large-format LED — engineered for unforgettable spatial storytelling.',
-    intro:
-      'We design and deliver end-to-end immersive technology installations: from architectural integration and AV systems engineering through to content authoring and operator handover. Our installations turn rooms into worlds, and worlds into memorable experiences.',
-    liveUrl: null,
-    recognition: [],
-    testimonial: null,
-    projects: [
-      {
-        title: 'Dome Theatre Showcase',
-        description:
-          'A 14-metre fulldome immersive theatre delivering 8K-per-eye content for a flagship visitor experience — designed, calibrated, and commissioned end to end.',
-        image: immersiveTechImg,
-      },
-      {
-        title: '270° LED Briefing Suite',
-        description:
-          'A wraparound 270° LED room with calibrated audio and integrated showcontrol, used for executive briefings, simulations, and high-profile product launches.',
-        image: hero3Img,
-      },
-    ],
-    nextWork: { id: 'AUDIO & ACOUSTIC', title: 'Audio & Acoustic' },
-  },
 
-  'smart-city': {
-    subtitle:
-      'End-to-end smart city architecture that connects citizens, services, and government into one intelligent ecosystem.',
-    intro:
-      'We design, implement, and support integrated command centre infrastructure for smart cities — bringing cutting-edge digital services to citizens and government bodies.',
-    liveUrl: null,
-    recognition: [],
-    testimonial: null,
-    projects: [
-      {
-        title: 'Chennai Command Centre',
-        description:
-          'Integrated traffic, surveillance, and emergency response platform serving 8M+ residents across the metro region — unified into a single operations dashboard.',
-        image: immersiveTechImg,
-      },
-      {
-        title: 'Pune Mobility Grid',
-        description:
-          'Real-time public transit and parking intelligence with multi-modal data integration, helping commuters and city operators alike make better decisions.',
-        image: hero3Img,
-      },
-    ],
-    // gallery: [smartCityImg],
-    nextWork: { id: 'ai-surveillance', title: 'AI Surveillance' },
-  },
 
-  'ai-surveillance': {
-    subtitle:
-      'Advanced AI-powered surveillance solutions that monitor, analyse, and respond intelligently.',
-    intro:
-      'Our AI surveillance systems leverage computer vision, deep learning, and edge processing.',
-    liveUrl: null,
-    recognition: [],
-    testimonial: null,
-    projects: [
-      {
-        title: 'Airport Perimeter Watch',
-        description:
-          'AI-driven anomaly detection across 12 km of airport perimeter, cutting manual monitoring overhead by 80% while raising detection accuracy.',
-        image: immersiveTechImg,
-      },
-      {
-        title: 'Border Intelligence Grid',
-        description:
-          'Multi-spectral surveillance combining edge AI cameras with thermal imaging for autonomous round-the-clock threat assessment.',
-        image: hero3Img,
-      },
-    ],
-    // gallery: [aiImg],
-    nextWork: { id: 'drones-solutions', title: 'Drones & Solutions' },
-  },
+  export const workDetails = {
+    'IMMERSIVE TECH': {
+      subtitle:
+        'Theatre-grade immersive environments — domes, 180°/360° spaces, and large-format LED — engineered for unforgettable spatial storytelling.',
+      intro:
+        'We design and deliver end-to-end immersive technology installations: from architectural integration and AV systems engineering through to content authoring and operator handover. Our installations turn rooms into worlds, and worlds into memorable experiences.',
+      liveUrl: null,
+      recognition: [],
+      testimonial: null,
+      projects: [
+        {
+          title: 'LED & Digital Signage Systems',
+          description:
+            'We design and deploy high-impact LED and digital signage solutions for modern spaces.Our systems deliver vibrant visuals, seamless performance, and real-time content control.Perfect for retail, events, corporate environments, and public displays.',
+          image: led1,
+        },
+        {
+          title: '270° LED Briefing Suite',
+          description:
+            'A wraparound 270° LED room with calibrated audio and integrated showcontrol, used for executive briefings, simulations, and high-profile product launches.',
+          image: hero3Img,
+        },
+      ],
+    },
 
-  'drones-solutions': {
-    subtitle:
-      'End-to-end drone solutions for surveillance, agriculture, deliveries, and defence.',
-    intro:
-      'AV Dynamics delivers fully integrated drone systems combining advanced hardware with AI-powered software.',
-    liveUrl: null,
-    recognition: [],
-    testimonial: null,
-    projects: [
-      {
-        title: 'Agricultural Mapping Fleet',
-        description:
-          'Precision crop monitoring across 50,000 hectares of farmland, delivering yield-optimisation insights to over 200 farms in a single growing season.',
-        image: immersiveTechImg,
-      },
-      {
-        title: 'Last-Mile Delivery Network',
-        description:
-          'Pilot urban delivery programme covering 14 km² with autonomous routing and real-time logistics integration with partner fulfilment centres.',
-        image: hero3Img,
-      },
-    ],
-    // gallery: [droneImg],
-    // nextWork: { id: 'projection-mapping', title: 'Projection Mapping' },
-  },
+    'AUDIO & ACOUSTIC': {
+      subtitle:
+        'Precision Sound. Perfect Clarity. ',
+      intro:
+        'We deliver high-quality audio and acoustic solutions tailored to every space.From sound system design to acoustic treatment, we ensure clarity and balance.Ideal for auditoriums, studios, corporate spaces, and live environments.',
+      liveUrl: null,
+      recognition: [],
+      testimonial: null,
+      projects: [
+        {
+          title: 'audio1',
+          description:
+            'Integrated traffic, surveillance, and emergency response platform serving 8M+ residents across the metro region — unified into a single operations dashboard.',
+          image: audio1,
+        },
+        {
+          title: 'audio2',
+          description:
+            'Real-time public transit and parking intelligence with multi-modal data integration, helping commuters and city operators alike make better decisions.',
+          image: audio1,
+        },
+      ],
+    },
 
-  'projection-mapping': {
-    subtitle:
-      'Transforming any surface into a canvas for immersive visual storytelling.',
-    intro:
-      'Our projection mapping services bring brand experiences and architectural facades to life.',
-    liveUrl: null,
-    recognition: [],
-    testimonial: null,
-    projects: [
-      {
-        title: 'Heritage Facade Spectacle',
-        description:
-          'Large-format architectural projection on a 200m heritage facade for an audience of 50,000+ across three sold-out nights.',
-        image: immersiveTechImg,
-      },
-      {
-        title: 'Brand Launch Showcase',
-        description:
-          'Multi-surface immersive product reveal combining projection mapping, kinetic lighting, and synchronised sound design for a flagship launch.',
-        image: hero3Img,
-      },
-    ],
-    // gallery: [projectionImg],
-    // nextWork: { id: 'smart-city', title: 'Smart City' },
-  },
-};
+    'VISUAL SYSTEMS': {
+      subtitle:
+        'End-to-End Visual Experiences',
+      intro:
+        'An end-to-end visual solution—designed, engineered, and delivered seamlessly.From concept to installation, we ensure precision and performance at every stage.Built to create impactful, immersive visual environments.',
+      liveUrl: null,
+      recognition: [],
+      testimonial: null,
+      projects: [
+        {
+          title: 'Projection Maping 1',
+          description:
+            'AI-driven anomaly detection across 12 km of airport perimeter, cutting manual monitoring overhead by 80% while raising detection accuracy.',
+          image: murugan,
+        },
+        {
+          title: 'Projection Maping 2',
+          description:
+            'Multi-spectral surveillance combining edge AI cameras with thermal imaging for autonomous round-the-clock threat assessment.',
+          image: klbuild,
+        },
+      ],
+    },
 
-export function generateFallback(work) {
-  return {
-    subtitle: `${work.title} — an end-to-end solution designed, built, and delivered.`,
-    intro:
-      'We bring deep technical expertise and global project experience to every engagement.',
-    liveUrl: null,
-    recognition: [],
-    testimonial: null,
-    projects: [
-      {
-        title: `${work.title} — Featured Install`,
-        description:
-          'A flagship deployment showcasing the full capability stack — designed, integrated, and commissioned end to end for a high-profile client engagement.',
-        image: immersiveTechImg,
-      },
-      {
-        title: `${work.title} — Operational Rollout`,
-        description:
-          'Phased operational rollout across multiple sites, with handover, training, and ongoing support packaged into a single delivery programme.',
-        image: hero3Img,
-      },
-    ],
-    gallery: [work.image],
-    nextWork: null,
+    'SMART CITY INFRA': {
+      subtitle:
+        'End-to-end drone solutions for surveillance, agriculture, deliveries, and defence.',
+      intro:
+        'AV Dynamics delivers fully integrated drone systems combining advanced hardware with AI-powered software.',
+      liveUrl: null,
+      recognition: [],
+      testimonial: null,
+      projects: [
+        {
+          title: 'Agricultural Mapping Fleet',
+          description:
+            'Precision crop monitoring across 50,000 hectares of farmland, delivering yield-optimisation insights to over 200 farms in a single growing season.',
+          image: smart1,
+        },
+        {
+          title: 'Last-Mile Delivery Network',
+          description:
+            'Pilot urban delivery programme covering 14 km² with autonomous routing and real-time logistics integration with partner fulfilment centres.',
+          image: smart2,
+        },
+        {
+          title: 'Last-Mile Delivery Network',
+          description:
+            'Pilot urban delivery programme covering 14 km² with autonomous routing and real-time logistics integration with partner fulfilment centres.',
+          image: smart3,
+        },
+      ],
+    },
+
+    'DEFENSE & HIGH-TECH': {
+      subtitle:
+        'Survaliance',
+      intro:
+        'Advanced technology solutions built for defense and high-security environments.We deliver reliable, precision-driven systems with uncompromised performance.Designed to meet the demands of mission-critical operations.',
+      liveUrl: null,
+      recognition: [],
+      testimonial: null,
+      projects: [
+        {
+          title: 'Heritage Facade Spectacle',
+          description:
+            'Large-format architectural projection on a 200m heritage facade for an audience of 50,000+ across three sold-out nights.',
+          image: defense1,
+        },
+        {
+          title: 'Brand Launch Showcase',
+          description:
+            'Multi-surface immersive product reveal combining projection mapping, kinetic lighting, and synchronised sound design for a flagship launch.',
+          image: defense2,
+        },
+        {
+          title: 'Brand Launch Showcase',
+          description:
+            'Multi-surface immersive product reveal combining projection mapping, kinetic lighting, and synchronised sound design for a flagship launch.',
+          image: defense3,
+        },
+      ],
+    },
+
+    'EVENTS & GLOBAL': {
+      subtitle:
+        'End-to-end drone solutions for surveillance, agriculture, deliveries, and defence.',
+      intro:
+        'AV Dynamics delivers fully integrated drone systems combining advanced hardware with AI-powered software.',
+      liveUrl: null,
+      recognition: [],
+      testimonial: null,
+      projects: [
+        {
+          title: 'Agricultural Mapping Fleet',
+          description:
+            'Precision crop monitoring across 50,000 hectares of farmland, delivering yield-optimisation insights to over 200 farms in a single growing season.',
+          image: klbuild,
+        },
+        {
+          title: 'Last-Mile Delivery Network',
+          description:
+            'Pilot urban delivery programme covering 14 km² with autonomous routing and real-time logistics integration with partner fulfilment centres.',
+          image: klbuild,
+        },
+        
+      ],
+    },
+
+    'SOLAR': {
+      subtitle:
+        'End-to-end drone solutions for surveillance, agriculture, deliveries, and defence.',
+      intro:
+        'AV Dynamics delivers fully integrated drone systems combining advanced hardware with AI-powered software.',
+      liveUrl: null,
+      recognition: [],
+      testimonial: null,
+      projects: [
+        {
+          title: 'Agricultural Mapping Fleet',
+          description:
+            'Precision crop monitoring across 50,000 hectares of farmland, delivering yield-optimisation insights to over 200 farms in a single growing season.',
+          image: solar1,
+        },
+        {
+          title: 'Last-Mile Delivery Network',
+          description:
+            'Pilot urban delivery programme covering 14 km² with autonomous routing and real-time logistics integration with partner fulfilment centres.',
+          image: solar2,
+        },
+        
+      ],
+    },
+
+    'HOSPITALITY EXPERIENCE': {
+      subtitle:
+        'End-to-end drone solutions for surveillance, agriculture, deliveries, and defence.',
+      intro:
+        'AV Dynamics delivers fully integrated drone systems combining advanced hardware with AI-powered software.',
+      liveUrl: null,
+      recognition: [],
+      testimonial: null,
+      projects: [
+        {
+          title: 'Agricultural Mapping Fleet',
+          description:
+            'Precision crop monitoring across 50,000 hectares of farmland, delivering yield-optimisation insights to over 200 farms in a single growing season.',
+          image: solar1,
+        },
+        {
+          title: 'Last-Mile Delivery Network',
+          description:
+            'Pilot urban delivery programme covering 14 km² with autonomous routing and real-time logistics integration with partner fulfilment centres.',
+          image: solar2,
+        },
+        
+      ],
+    },
+
   };
-}
+
+  export function generateFallback(work) {
+    return {
+      subtitle: `${work.title} — an end-to-end solution designed, built, and delivered.`,
+      intro:
+        'We bring deep technical expertise and global project experience to every engagement.',
+      liveUrl: null,
+      recognition: [],
+      testimonial: null,
+      projects: [
+        {
+          title: `${work.title} — Featured Install`,
+          description:
+            'A flagship deployment showcasing the full capability stack — designed, integrated, and commissioned end to end for a high-profile client engagement.',
+          image: immersiveTechImg,
+        },
+        {
+          title: `${work.title} — Operational Rollout`,
+          description:
+            'Phased operational rollout across multiple sites, with handover, training, and ongoing support packaged into a single delivery programme.',
+          image: hero3Img,
+        },
+      ],
+    };
+  }

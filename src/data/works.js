@@ -31,7 +31,7 @@ export const works = [
     align: "left",
   },
   {
-    id: " VISUAL SYSTEMS",
+    id: "VISUAL SYSTEMS",
     num: "03",
     title: " VISUAL SYSTEMS",
     tags: ["Projection mapping", " Laser shows", " LED video walls"],
@@ -49,7 +49,7 @@ export const works = [
     align: "left",
   },
   {
-    id: " DEFENSE & HIGH-TECH",
+    id: "DEFENSE & HIGH-TECH",
     num: "05",
     title: " DEFENSE & HIGH-TECH",
     tags: ["Simulators", " Runway monitoring", "Surveillance"],
@@ -58,7 +58,7 @@ export const works = [
     align: "right",
   },
   {
-    id: " EVENTS & GLOBAL",
+    id: "EVENTS & GLOBAL",
     num: "06",
     title: " EVENTS & GLOBAL",
     tags: ["AVARAE", "AVARAE_2"],

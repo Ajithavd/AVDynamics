@@ -231,12 +231,12 @@ export default function About() {
         }}
       />
       {/* ── HERO ── */}
-      <section ref={heroRef} className="site-grid pt-[20rem] s:pt-[28rem]">
+      <section ref={heroRef} className="site-grid pt-[20rem] s:pt-[24rem]">
         <h1
           aria-label="Engineering immersive technology experiences"
           className="col-span-12 s:col-start-2 s:col-span-30 font-heading uppercase font-medium"
           style={{
-            fontSize: 'clamp(7rem, 13vw, 20rem)',
+            fontSize: 'clamp(7rem, 13vw, 14rem)',
             letterSpacing: '-0.06em',
             lineHeight: 0.9,
           }}
@@ -254,7 +254,7 @@ export default function About() {
       </section>
 
       {/* ── HERO IMAGE ── */}
-      <section className="site-grid mt-[6rem] s:mt-[10rem]">
+      {/* <section className="site-grid mt-[6rem] s:mt-[10rem]">
         <figure
           className="r-clip col-span-12 s:col-start-2 s:col-span-29 m-0 p-0 relative overflow-hidden"
           style={{ aspectRatio: '16 / 10', borderRadius: '1.5rem' }}
@@ -273,7 +273,7 @@ export default function About() {
             }}
           />
         </figure>
-      </section>
+      </section> */}
 
       {/* ── INTRO PARAGRAPH ── */}
       <section className="site-grid mt-[15rem] s:mt-[30rem]">

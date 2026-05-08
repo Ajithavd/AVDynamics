@@ -66,7 +66,7 @@ export default function Home() {
 
       {/* Hero section — single ScrollTrigger drives all hero animations */}
       <div ref={heroRef}>
-        <div className="pt-[17.5rem] s:pt-[22.5rem]">
+        <div className="pt-[17.5rem] s:pt-[18.5rem]">
           <HeroText />
         </div>
         <HeroVideo />

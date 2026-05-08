@@ -171,7 +171,7 @@ export default function WorkDetail() {
             <h1
               className="js-t-line font-heading font-medium uppercase"
               style={{
-                fontSize: 'clamp(3.5rem, 6.5vw, 14rem)',
+                fontSize: 'clamp(3.5rem, 5.5vw, 14rem)',
                 letterSpacing: '-0.05em',
                 lineHeight: 0.9,
                 wordBreak: 'break-word',
