@@ -132,6 +132,7 @@
   import klbuild from "../assets/klbuild.png"
   import murugan from "../assets/murugan.png"
   import smart1 from "../assets/smart1.jpeg"
+  import smaart1 from "../assets/smaart1.jpeg"
   import smart2 from "../assets/smart2.jpeg"
   import smart3 from "../assets/smart3.jpeg"
   import defense1 from "../assets/defense1.jpeg"
@@ -145,6 +146,9 @@
   import alchemist from "../assets/alchemist.png"
   import asis from "../assets/asis.png"
   import dome from "../assets/dome1.jpeg"
+  import smart7 from "../assets/smart7.jpeg"
+  import smart6 from "../assets/smart6.jpeg"
+
 
 
   
@@ -233,13 +237,13 @@
           title: 'City Surveillence',
           description:
             'Our command and control centers integrate surveillance, analytics, communication, and operational management into a centralized intelligent ecosystem. Designed for mission-critical environments, they enhance decision-making, situational awareness, and real-time response capabilities.',
-          image: smart1,
+          image: smaart1,
         },
         {
           title: ' Facial Recognition , ANPR , Solar Intergration',
           description:
             'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
-          image: smart2,
+          image: smart1,
         },
         {
           title: 'EV Charging Infrastructure',
@@ -250,28 +254,29 @@
           title: 'Public Transport Tracking',
           description:
             'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
-          image: smart2,
+          image: smart3,
         },{
           title: 'Transport Surveillence',
           description:
             'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
-          image: smart2,
+          image: defense1,
         },{
           title: 'AR/VR Training system',
           description:
             'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
-          image: smart2,
+          image: smart6,
         },{
           title: 'Waste Management',
           description:
             'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
-          image: smart2,
-        },{
-          title: 'SMART CLASSROOMS',
-          description:
-            'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
-          image: smart2,
+          image: smart7,
         },
+        // {
+        //   title: 'SMART CLASSROOMS',
+        //   description:
+        //     'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
+        //   image: smart2,
+        // },
         
       ],
     },
