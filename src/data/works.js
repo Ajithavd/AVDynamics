@@ -52,7 +52,7 @@ export const works = [
     id: "DEFENSE & HIGH-TECH",
     num: "05",
     title: " DEFENSE & HIGH-TECH",
-    tags: ["Simulators", " Runway monitoring", "Surveillance"],
+    tags: ["Simulators", " Runway monitoring", "ai Surveillance"],
     image: DEFENSE,
     aspect: "aspect-4-3",
     align: "right",

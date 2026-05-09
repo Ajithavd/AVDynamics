@@ -148,6 +148,8 @@
   import dome from "../assets/dome1.jpeg"
   import smart7 from "../assets/smart7.jpeg"
   import smart6 from "../assets/smart6.jpeg"
+  import smart8 from "../assets/smart8.png"
+
 
 
 
@@ -242,41 +244,41 @@
         {
           title: ' Facial Recognition , ANPR , Solar Intergration',
           description:
-            'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
+            'AI-powered Facial Recognition ensures secure, contactless identity verification with real-time accuracy.ANPR systems enable intelligent vehicle tracking and automated access control across any environment. Solar Integration delivers sustainable, cost-efficient power solutions for uninterrupted system performance.',
           image: smart1,
         },
         {
           title: 'EV Charging Infrastructure',
           description:
-            'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
+            'EV Charging Infrastructure provides fast, reliable charging solutions for electric vehicles across residential, commercial, and public spaces. Designed for scalability and smart energy management to support growing EV adoption. Ensures efficient, future-ready mobility with sustainable and cost-effective operations.',
           image: smart2,
         },{
           title: 'Public Transport Tracking',
           description:
-            'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
+            'Public Transport Tracking enables real-time monitoring of buses and fleets for improved efficiency and passenger convenience. Provides accurate location data, route optimization, and live updates for better operational control. Enhances safety, reliability, and smart mobility across urban transport systems.',
           image: smart3,
         },{
           title: 'Transport Surveillence',
           description:
-            'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
+            'Transport Surveillance ensures real-time monitoring of vehicles and transit systems for enhanced safety and security. Utilizes advanced cameras and analytics to detect incidents, violations, and suspicious activities. Improves operational control, passenger safety, and efficient traffic management.',
           image: defense1,
         },{
           title: 'AR/VR Training system',
           description:
-            'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
+            'AR/VR Training Systems deliver immersive, simulation-based learning for safe and effective skill development. Enable realistic scenarios, interactive environments, and hands-on training without real-world risks. Enhance performance, reduce costs, and accelerate learning across industries.',
           image: smart6,
         },{
           title: 'Waste Management',
           description:
-            'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
+            'Waste Management solutions enable efficient collection, monitoring, and disposal of waste using smart technologies. Optimize routes, reduce operational costs, and support sustainable environmental practices.Improve cleanliness, compliance, and overall urban infrastructure management.',
           image: smart7,
         },
-        // {
-        //   title: 'SMART CLASSROOMS',
-        //   description:
-        //     'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
-        //   image: smart2,
-        // },
+        {
+          title: 'SMART CLASSROOMS',
+          description:
+            'Smart Classrooms integrate interactive displays, audio-visual systems, and digital tools for engaging learning experiences. Enable seamless collaboration, remote learning, and real-time content sharing. Enhance teaching efficiency, student participation, and modern education environments.',
+          image: smart8,
+        },
         
       ],
     },
@@ -291,7 +293,7 @@
       testimonial: null,
       projects: [
         {
-          title: 'SURVEILLANCE',
+          title: 'AI SURVEILLANCE',
           description:
             'We deploy AI-powered surveillance ecosystems designed to strengthen urban security, monitoring, and emergency response capabilities. Integrated with intelligent analytics and centralized control systems, our platforms support safer and smarter city operations.',
           image: defense1,

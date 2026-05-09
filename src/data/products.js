@@ -1,4 +1,4 @@
-import ndur from '../assets/ndur.png'
+import ndur from '../assets/ndur.jpeg'
 
 export const products = [
   {
@@ -8,7 +8,7 @@ export const products = [
     description:
       'NDÜR combines cutting-edge technology with advanced AI to optimize your movement to prevent injuries and maximize your endurance performance with lab-grade accuracy',
     image: ndur,
-    aspect: 'aspect-1-1',
+    aspect: 'aspect-16-9',
     align: 'right',
   },
   

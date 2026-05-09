@@ -262,7 +262,7 @@ export default function WorkDetail() {
                 <div
                   className="relative js-t-media overflow-hidden"
                   style={{
-                    borderRadius: "1.5rem",
+                    // borderRadius: "1.5rem",
                     aspectRatio: "4 / 3",
                     width: "100%",
                   }}
