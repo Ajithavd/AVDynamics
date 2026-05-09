@@ -32,9 +32,18 @@ body.header-dark .header-trigger {
 }
 
 /* Logo crossfade — both versions render stacked; the white one fades in
-   when body has `header-dark`, matching the .header-trigger transition. */
+   when body has `header-dark`, matching the .header-trigger transition.
+   Default visibility is owned by CSS (NOT inline style), otherwise the
+   inline opacity would override the dark-theme rule and the white logo
+   would never appear on dark pages. */
 .header-logo {
   transition: opacity 0.35s ease;
+}
+.header-logo--light {
+  opacity: 1;
+}
+.header-logo--dark {
+  opacity: 0;
 }
 body.header-dark .header-logo--light {
   opacity: 0;

@@ -49,7 +49,6 @@ export default function Header({ onMenuToggle, menuOpen }) {
               height: "100%",
               objectFit: "contain",
               objectPosition: "left center",
-              opacity: 0,
             }}
           />
         </Link>
@@ -59,7 +58,7 @@ export default function Header({ onMenuToggle, menuOpen }) {
           type="button"
           aria-label="Toggle menu"
           onClick={onMenuToggle}
-          className="trigger w-[6rem] header-trigger"
+          className="trigger w-[8rem] header-trigger me-[6rem]"
         >
           <div className="plus">
             <svg
@@ -115,9 +114,10 @@ export default function Header({ onMenuToggle, menuOpen }) {
           onClick={onMenuToggle}
           className="trigger font-medium leading-none header-trigger"
           style={{
-            fontSize: "1.3rem",
+            fontSize: "1.5rem",
             letterSpacing: "-0.05em",
             flexShrink: 0,
+            fontWeight: 800,
           }}
         >
           <span className="underlined">{menuOpen ? "Close" : "Menu"}</span>

@@ -7,7 +7,7 @@ import VIDEO_SRC from "../../assets/vid.mp4";
 const navLinks = [
   { label: "HOME", to: "/" },
   // { label: "WORK", to: "/works" },
-  { label: "ABOUT", to: "/about" },
+  // { label: "ABOUT", to: "/about" },
   { label: "PRODUCTS", to: "/products" },
   { label: "CONTACT", to: "/contact" },
   { label: "LAB", to: "/lab" },
@@ -119,7 +119,7 @@ export default function Navigation({ menuRef, innerRef, onClose }) {
           <Link
             to="/"
             aria-label="Logo"
-            className="col-start-1 s:col-start-2 col-span-5 s:col-span-4"
+            className="col-start-1 s:col-start-1 col-span-5 s:col-span-4"
             style={{ display: "block", width: "12rem", height: "6rem" }}
           >
             <img
@@ -151,7 +151,7 @@ export default function Navigation({ menuRef, innerRef, onClose }) {
             pushing the bottom row off-screen on shorter viewports. */}
         <div className="flex-grow min-h-0 site-grid pt-[3rem] s:pt-[4rem]">
           <ul
-            className="col-start-4 s:col-start-3 col-span-6 s:col-span-12 flex flex-col"
+            className="col-start-5 s:col-start-5 col-span-6 s:col-span-12 flex flex-col"
             style={{
               fontSize: "clamp(4.5rem, min(6.5vw, 9vh), 11rem)",
               gap: "0.5rem",
@@ -222,7 +222,7 @@ export default function Navigation({ menuRef, innerRef, onClose }) {
 
           {/* Social links — aligned with nav items (col-start-7) on desktop, beside X on mobile */}
           <ul
-            className="col-start-4 s:col-start-3 col-span-5 s:col-span-4 flex flex-col js-menu-fade"
+            className="col-start-4 s:col-start-4 col-span-5 s:col-span-4 flex flex-col js-menu-fade"
             style={{ gap: "0.4rem" }}
           >
             {socialLinks.map(({ label, href }) => (
