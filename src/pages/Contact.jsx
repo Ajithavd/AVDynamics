@@ -3,14 +3,14 @@ import { useNavigationType } from "react-router-dom";
 import gsap from "gsap";
 
 const contactInfo = {
-  email: "hello@avdynam.com",
+  email: "info@avdynam.com",
   phone: "+91 73582 41964",
-  address: ["ECO Park", "Chetpet", "Chennai, Tamil Nadu", "India"],
+  address: ["ECO Park","DOME - 1st floor", "Chetpet", "Chennai-600 010, Tamil Nadu", "India"],
 };
 
 const socialLinks = [
-  { label: "INSTAGRAM", href: "https://www.instagram.com/avdynamics" },
-  { label: "EVENTS", href: "https://www.avarae.in/" },
+  // { label: "INSTAGRAM", href: "https://www.instagram.com/avdynamics" },
+  // { label: "EVENTS", href: "https://www.avarae.in/" },
 ];
 
 function ArrowIcon() {
@@ -197,7 +197,7 @@ export default function Contact() {
                     className="tiny-uppercase block mb-[2rem]"
                     style={{ opacity: 0.4 }}
                   >
-                    Connect with us
+                    {/* Connect with us */}
                   </span>
                   <ul
                     style={{

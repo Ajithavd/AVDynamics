@@ -144,6 +144,7 @@
   import avarae2 from "../assets/avarae2.png"
   import alchemist from "../assets/alchemist.png"
   import asis from "../assets/asis.png"
+  import dome from "../assets/dome1.jpeg"
 
 
   
@@ -171,7 +172,7 @@
           title: 'DOME',
           description:
             'Our immersive dome environments are crafted to deliver seamless panoramic experiences through advanced projection, spatial acoustics, and precision engineering. Designed for tourism, education, culture, and entertainment, these spaces redefine audience interaction through fully integrated experiential technology.',
-          image: hero3Img,
+          image: dome,
         },
       ],
     },
@@ -229,12 +230,43 @@
       testimonial: null,
       projects: [
         {
-          title: 'COMMAND CENTERS',
+          title: 'City Surveillence',
           description:
             'Our command and control centers integrate surveillance, analytics, communication, and operational management into a centralized intelligent ecosystem. Designed for mission-critical environments, they enhance decision-making, situational awareness, and real-time response capabilities.',
           image: smart1,
         },
         {
+          title: ' Facial Recognition , ANPR , Solar Intergration',
+          description:
+            'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
+          image: smart2,
+        },
+        {
+          title: 'EV Charging Infrastructure',
+          description:
+            'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
+          image: smart2,
+        },{
+          title: 'Public Transport Tracking',
+          description:
+            'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
+          image: smart2,
+        },{
+          title: 'Transport Surveillence',
+          description:
+            'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
+          image: smart2,
+        },{
+          title: 'AR/VR Training system',
+          description:
+            'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
+          image: smart2,
+        },{
+          title: 'Waste Management',
+          description:
+            'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
+          image: smart2,
+        },{
           title: 'SMART CLASSROOMS',
           description:
             'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
@@ -340,9 +372,9 @@
           image: alchemist,
         },
         {
-          title: 'ASIS CAFE',
+          title: 'AS IS CAFE',
           description:
-            'ASIS delivers refined hospitality experiences through modern aesthetics, immersive environments, and elevated customer engagement. Positioned as a premium experiential destination, it combines luxury, innovation, and lifestylefocused hospitality into one seamless experience.',
+            'AS IS delivers refined hospitality experiences through modern aesthetics, immersive environments, and elevated customer engagement. Positioned as a premium experiential destination, it combines luxury, innovation, and lifestylefocused hospitality into one seamless experience.',
           image: asis,
         },
         

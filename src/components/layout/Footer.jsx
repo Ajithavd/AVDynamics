@@ -30,17 +30,17 @@ const navLinks = [
   // { label: 'Work', to: '/works' },
   // { label: 'About', to: '/about' },
   { label: "Contact", to: "/contact" },
-  { label: "Lab", to: "/lab" },
+  // { label: "Lab", to: "/lab" },
 ];
 
-const socialLinks = [
-  {
-    short: "Ig",
-    full: "Instagram",
-    href: "https://www.instagram.com/avdynamics",
-  },
-  { short: "Ev", full: "Events", href: "https://www.avarae.in/" },
-];
+// const socialLinks = [
+//   {
+//     short: "Ig",
+//     full: "Instagram",
+//     href: "https://www.instagram.com/avdynamics",
+//   },
+//   { short: "Ev", full: "Events", href: "https://www.avarae.in/" },
+// ];
 
 export default function Footer() {
   const footerRef = useRef(null);
@@ -142,7 +142,7 @@ export default function Footer() {
               <br />
               DOME - 1st floor, Chetpet,
               <br />
-              Chennai--600 010, Tamil Nadu
+              Chennai-600 010, Tamil Nadu
               <br />
               India
             </address>
@@ -168,7 +168,7 @@ export default function Footer() {
           </div>
 
           {/* Connect */}
-          <div className="col-span-12 s:col-span-4 flex flex-col s:border-t border-white/20">
+          {/* <div className="col-span-12 s:col-span-4 flex flex-col s:border-t border-white/20">
             <span className="block tiny-uppercase mb-[3rem] s:mt-[4rem] text-white/60">
               Connect with us
             </span>
@@ -193,7 +193,7 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
 

@@ -14,8 +14,8 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { label: "INSTAGRAM", href: "https://www.instagram.com/avdynamics" },
-  { label: "EVENTS", href: "https://www.avarae.in/" },
+  // { label: "INSTAGRAM", href: "https://www.instagram.com/avdynamics" },
+  // { label: "EVENTS", href: "https://www.avarae.in/" },
 ];
 
 function ArrowIcon() {
@@ -247,10 +247,10 @@ export default function Navigation({ menuRef, innerRef, onClose }) {
           >
             <li>
               <a
-                href="mailto:info@avdynamics.com"
+                href="mailto:info@avdynam.com"
                 className="small-uppercase text-white underlined whitespace-nowrap"
               >
-                INFO@AVDYNAMICS.COM
+                INFO@AVDYNAM.COM
               </a>
             </li>
           </ul>
