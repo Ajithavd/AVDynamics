@@ -4,9 +4,9 @@ export const products = [
   {
     id: 'fulldome-theatre',
     num: '01',
-    title: 'Fulldome Theatre',
+    title: 'NDÜR AI',
     description:
-      'A 14-metre immersive dome delivering 8K-per-eye content with calibrated audio and integrated showcontrol. Designed for visitor centres, planetariums, and flagship brand experiences.',
+      'NDÜR combines cutting-edge technology with advanced AI to optimize your movement to prevent injuries and maximize your endurance performance with lab-grade accuracy',
     image: domeImg,
     aspect: 'aspect-1-1',
     align: 'right',

@@ -139,6 +139,11 @@
   import defense3 from "../assets/defense3.jpeg"
   import solar1 from "../assets/solar1.jpeg"
   import solar2 from "../assets/solar2.jpeg"
+  import simulate2 from "../assets/simulate2.jpeg"
+  import avarae1 from "../assets/avarae1.png"
+  import avarae2 from "../assets/avarae2.png"
+
+  
 
 
 
@@ -146,7 +151,7 @@
   export const workDetails = {
     'IMMERSIVE TECH': {
       subtitle:
-        'Theatre-grade immersive environments — domes, 180°/360° spaces, and large-format LED — engineered for unforgettable spatial storytelling.',
+        'Engineering next-generation immersive environments that merge technology, architecture, and storytelling into transformative experiences. From destination attractions to institutional ecosystems, we create spaces designed to inspire engagement, emotion, and lasting impact.',
       intro:
         'We design and deliver end-to-end immersive technology installations: from architectural integration and AV systems engineering through to content authoring and operator handover. Our installations turn rooms into worlds, and worlds into memorable experiences.',
       liveUrl: null,
@@ -156,13 +161,13 @@
         {
           title: 'LED & Digital Signage Systems',
           description:
-            'We design and deploy high-impact LED and digital signage solutions for modern spaces.Our systems deliver vibrant visuals, seamless performance, and real-time content control.Perfect for retail, events, corporate environments, and public displays.',
+            'We deliver premium LED ecosystems engineered for architectural integration, cinematic clarity, and operational excellence. From command centers and auditoriums to experiential destinations, our visual platforms create powerful, high-impact communication environments.',
           image: led1,
         },
         {
-          title: '270° LED Briefing Suite',
+          title: 'DOME',
           description:
-            'A wraparound 270° LED room with calibrated audio and integrated showcontrol, used for executive briefings, simulations, and high-profile product launches.',
+            'Our immersive dome environments are crafted to deliver seamless panoramic experiences through advanced projection, spatial acoustics, and precision engineering. Designed for tourism, education, culture, and entertainment, these spaces redefine audience interaction through fully integrated experiential technology.',
           image: hero3Img,
         },
       ],
@@ -172,45 +177,40 @@
       subtitle:
         'Precision Sound. Perfect Clarity. ',
       intro:
-        'We deliver high-quality audio and acoustic solutions tailored to every space.From sound system design to acoustic treatment, we ensure clarity and balance.Ideal for auditoriums, studios, corporate spaces, and live environments.',
+        'Designing intelligent acoustic ecosystems that deliver clarity, balance, and immersive auditory performance across every environment. We combine advanced engineering with acoustic science to create exceptional sound experiences at every scale.',
       liveUrl: null,
       recognition: [],
       testimonial: null,
       projects: [
         {
-          title: 'audio1',
+          title: 'AUDIO SYSTEM',
           description:
-            'Integrated traffic, surveillance, and emergency response platform serving 8M+ residents across the metro region — unified into a single operations dashboard.',
+            'Our professional audio systems are engineered to deliver precision, consistency, and immersive performance across institutional, entertainment, and public infrastructure environments. From acoustic optimization to intelligent signal integration, every solution is tailored for uncompromised sonic excellence.',
           image: audio1,
         },
-        {
-          title: 'audio2',
-          description:
-            'Real-time public transit and parking intelligence with multi-modal data integration, helping commuters and city operators alike make better decisions.',
-          image: audio1,
-        },
+        
       ],
     },
 
     'VISUAL SYSTEMS': {
       subtitle:
-        'End-to-End Visual Experiences',
+        'Visual Intelligence',
       intro:
-        'An end-to-end visual solution—designed, engineered, and delivered seamlessly.From concept to installation, we ensure precision and performance at every stage.Built to create impactful, immersive visual environments.',
+        'Transforming environments into dynamic visual experiences through cinematic technologies and advanced digital integration. We create visually compelling ecosystems that elevate engagement, storytelling, and largescale audience interaction.',
       liveUrl: null,
       recognition: [],
       testimonial: null,
       projects: [
         {
-          title: 'Projection Maping 1',
+          title: 'PROJECTION MAPING',
           description:
-            'AI-driven anomaly detection across 12 km of airport perimeter, cutting manual monitoring overhead by 80% while raising detection accuracy.',
+            'Our projection mapping experiences transform architecture and physical spaces into immersive storytelling platforms through precision visual engineering. From heritage landmarks to global events, we deliver large-format experiences that captivate audiences with depth, motion, and emotion.',
           image: murugan,
         },
         {
-          title: 'Projection Maping 2',
+          title: 'LASER SHOWS',
           description:
-            'Multi-spectral surveillance combining edge AI cameras with thermal imaging for autonomous round-the-clock threat assessment.',
+            'We create synchronized laser environments designed to elevate large-scale productions, celebrations, and destination experiences. Combining intelligent programming, visual choreography, and immersive effects, our laser systems deliver unforgettable moments with spectacular precision.',
           image: klbuild,
         },
       ],
@@ -218,59 +218,54 @@
 
     'SMART CITY INFRA': {
       subtitle:
-        'End-to-end drone solutions for surveillance, agriculture, deliveries, and defence.',
+        'Smart Infrastructure',
       intro:
-        'AV Dynamics delivers fully integrated drone systems combining advanced hardware with AI-powered software.',
+        'Building intelligent urban ecosystems powered by connectivity, automation, surveillance, and data-driven operational control. We enable governments and institutions to create safer, smarter, and more responsive infrastructure environments.',
       liveUrl: null,
       recognition: [],
       testimonial: null,
       projects: [
         {
-          title: 'Agricultural Mapping Fleet',
+          title: 'COMMAND CENTERS',
           description:
-            'Precision crop monitoring across 50,000 hectares of farmland, delivering yield-optimisation insights to over 200 farms in a single growing season.',
+            'Our command and control centers integrate surveillance, analytics, communication, and operational management into a centralized intelligent ecosystem. Designed for mission-critical environments, they enhance decision-making, situational awareness, and real-time response capabilities.',
           image: smart1,
         },
         {
-          title: 'Last-Mile Delivery Network',
+          title: 'SMART CLASSROOMS',
           description:
-            'Pilot urban delivery programme covering 14 km² with autonomous routing and real-time logistics integration with partner fulfilment centres.',
+            'We develop digitally connected learning environments equipped with collaborative technologies and immersive educational systems. Designed for modern institutions, our smart classrooms enhance interaction, accessibility, and future-ready academic experiences.',
           image: smart2,
         },
-        {
-          title: 'Last-Mile Delivery Network',
-          description:
-            'Pilot urban delivery programme covering 14 km² with autonomous routing and real-time logistics integration with partner fulfilment centres.',
-          image: smart3,
-        },
+        
       ],
     },
 
     'DEFENSE & HIGH-TECH': {
       subtitle:
-        'Survaliance',
+        'Advanced Technologies',
       intro:
-        'Advanced technology solutions built for defense and high-security environments.We deliver reliable, precision-driven systems with uncompromised performance.Designed to meet the demands of mission-critical operations.',
+        'Delivering high-performance technologies for defense, aviation, surveillance, and missioncritical operational environments. Our systems are engineered for precision, intelligence, resilience, and next-generation security infrastructure.',
       liveUrl: null,
       recognition: [],
       testimonial: null,
       projects: [
         {
-          title: 'Heritage Facade Spectacle',
+          title: 'SURVEILLANCE',
           description:
-            'Large-format architectural projection on a 200m heritage facade for an audience of 50,000+ across three sold-out nights.',
+            'We deploy AI-powered surveillance ecosystems designed to strengthen urban security, monitoring, and emergency response capabilities. Integrated with intelligent analytics and centralized control systems, our platforms support safer and smarter city operations.',
           image: defense1,
         },
         {
-          title: 'Brand Launch Showcase',
+          title: 'SIMULATORS',
           description:
-            'Multi-surface immersive product reveal combining projection mapping, kinetic lighting, and synchronised sound design for a flagship launch.',
-          image: defense2,
+            'Our advanced simulation platforms deliver realistic training environments designed to enhance operational preparedness and decision-making accuracy. Built for defense, aviation, and industrial applications, these systems combine immersive realism with intelligent performance analytics.',
+          image: simulate2,
         },
         {
-          title: 'Brand Launch Showcase',
+          title: 'RUNWAY MONITORING',
           description:
-            'Multi-surface immersive product reveal combining projection mapping, kinetic lighting, and synchronised sound design for a flagship launch.',
+            'Our runway monitoring solutions provide intelligent aviation surveillance with real-time analytics and operational visibility. Designed for airports and defense infrastructure, these systems enhance safety, perimeter security, and proactive risk management',
           image: defense3,
         },
       ],
@@ -278,24 +273,24 @@
 
     'EVENTS & GLOBAL': {
       subtitle:
-        'End-to-end drone solutions for surveillance, agriculture, deliveries, and defence.',
+        'Global Experiences',
       intro:
-        'AV Dynamics delivers fully integrated drone systems combining advanced hardware with AI-powered software.',
+        'Creating immersive international experiences that blend technology, entertainment, culture, and large-scale audience engagement. We deliver world-class productions designed to elevate destinations, brands, and global experiential platforms.',
       liveUrl: null,
       recognition: [],
       testimonial: null,
       projects: [
         {
-          title: 'Agricultural Mapping Fleet',
+          title: 'AVARAE',
           description:
-            'Precision crop monitoring across 50,000 hectares of farmland, delivering yield-optimisation insights to over 200 farms in a single growing season.',
-          image: klbuild,
+            'AVARAE represents a premium experiential platform where immersive technology meets largescale event production and destination entertainment. Designed to captivate audiences globally, it delivers memorable experiences driven by creativity, innovation, and immersive storytelling.',
+          image: avarae1,
         },
         {
-          title: 'Last-Mile Delivery Network',
+          title: 'AVARAE 2',
           description:
             'Pilot urban delivery programme covering 14 km² with autonomous routing and real-time logistics integration with partner fulfilment centres.',
-          image: klbuild,
+          image: avarae2,
         },
         
       ],
@@ -303,23 +298,23 @@
 
     'SOLAR': {
       subtitle:
-        'End-to-end drone solutions for surveillance, agriculture, deliveries, and defence.',
+        'Clean Energy',
       intro:
-        'AV Dynamics delivers fully integrated drone systems combining advanced hardware with AI-powered software.',
+        'Powering sustainable infrastructure through intelligent renewable energy systems and futurefocused power technologies. We deliver scalable solar ecosystems engineered for efficiency, reliability, and long-term environmental impact.',
       liveUrl: null,
       recognition: [],
       testimonial: null,
       projects: [
         {
-          title: 'Agricultural Mapping Fleet',
+          title: 'SOLAR PANEL',
           description:
-            'Precision crop monitoring across 50,000 hectares of farmland, delivering yield-optimisation insights to over 200 farms in a single growing season.',
+            'Our solar energy solutions are designed to maximize efficiency, optimize performance, and support sustainable infrastructure development. From institutional projects to industrial ecosystems, we deliver integrated renewable solutions built for long-term energy resilience.',
           image: solar1,
         },
         {
-          title: 'Last-Mile Delivery Network',
+          title: 'SOLAR',
           description:
-            'Pilot urban delivery programme covering 14 km² with autonomous routing and real-time logistics integration with partner fulfilment centres.',
+            'We provide intelligent battery storage and energy management systems that enhance renewable performance and operational continuity. Designed for modern infrastructure, our solutions support efficient power distribution, smart integration, and sustainable energy optimization.',
           image: solar2,
         },
         
@@ -328,23 +323,23 @@
 
     'HOSPITALITY EXPERIENCE': {
       subtitle:
-        'End-to-end drone solutions for surveillance, agriculture, deliveries, and defence.',
+        'Luxury Hospitality',
       intro:
-        'AV Dynamics delivers fully integrated drone systems combining advanced hardware with AI-powered software.',
+        'Creating immersive hospitality destinations that blend atmosphere, design, culture, and elevated guest experiences. We craft refined environments where hospitality becomes an unforgettable experiential journey.',
       liveUrl: null,
       recognition: [],
       testimonial: null,
       projects: [
         {
-          title: 'Agricultural Mapping Fleet',
+          title: 'ALCHEMIST THE LAKE VIEWERY',
           description:
-            'Precision crop monitoring across 50,000 hectares of farmland, delivering yield-optimisation insights to over 200 farms in a single growing season.',
+            'Alchemist is a destination-driven hospitality concept designed around immersive ambience, curated culinary experiences, and contemporary lifestyle culture. Every element is crafted to create memorable social experiences with sophistication, creativity, and emotional connection.',
           image: solar1,
         },
         {
-          title: 'Last-Mile Delivery Network',
+          title: 'ASIS CAFE',
           description:
-            'Pilot urban delivery programme covering 14 km² with autonomous routing and real-time logistics integration with partner fulfilment centres.',
+            'ASIS delivers refined hospitality experiences through modern aesthetics, immersive environments, and elevated customer engagement. Positioned as a premium experiential destination, it combines luxury, innovation, and lifestylefocused hospitality into one seamless experience.',
           image: solar2,
         },
         

@@ -209,8 +209,7 @@ export default function Products() {
           className="js-t-fade col-span-12 s:col-start-4 s:col-span-22 font-body leading-[1.3]"
           style={{ fontSize: 'clamp(1.8rem, 2vw, 4rem)', letterSpacing: '-0.02em' }}
         >
-          A curated lineup of immersive systems, smart-city hardware, and AI-driven
-          surveillance — engineered for landmark deployments and proven in the field.
+          NDÜR is an Intelligent Performance Ecosystem built for endurance athletes.
         </p>
       </section>
 
