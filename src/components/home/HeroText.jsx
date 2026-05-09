@@ -12,11 +12,11 @@ export default function HeroText() {
         }}
       >
         <div aria-hidden="true" className="js-hero-word overflow-hidden">
-          <div className="js-t-line">Engineering   </div>
+          <div className="js-t-line">Engineering </div>
         </div>
 
         <div aria-hidden="true" className="js-hero-word overflow-hidden">
-          <div className="js-t-line"> INTELLIGENT  </div>
+          <div className="js-t-line"> INTELLIGENT </div>
         </div>
 
         <div
@@ -33,13 +33,13 @@ export default function HeroText() {
         >
           <div className="js-t-line">IMMERSIVE </div>
 
-        <div className="js-t-line"> Experiences</div>
+          <div className="js-t-line"> Experiences</div>
         </div>
       </h1>
 
       {/* Tagline — below the hero text, static */}
       <div className="hidden s:block small-uppercase mt-[3rem] px-[4rem]">
-        India, Malaysia  <br /> Armania  &amp;  <br />
+        India, Malaysia <br /> Armania &amp; <br />
         UAE
       </div>
     </div>

@@ -43,6 +43,43 @@ body.header-dark .header-logo--dark {
   opacity: 1;
 }
 
+/* ─── Lab vertical carousel ────────────────────────────────────── */
+/* All slides are absolutely positioned at the carousel's centre.
+   GSAP animates each slide's `y` (translation), `scale`, and
+   `autoAlpha` simultaneously, so the focused slide grows to full size
+   while the outgoing one shrinks — every property eased on the same
+   timeline for a single smooth motion. */
+.lab-carousel {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.lab-slide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* xPercent: -50, yPercent: -50 set via GSAP for transform-origin
+     consistency with subsequent translations and scaling. */
+  will-change: transform, opacity;
+}
+
+/* The image owns the slide's geometry — fixed height, width derived from
+   the natural aspect ratio so wide images render wide and square images
+   render square. The slide's wrapper sizes to the image, so xPercent
+   centring works correctly regardless of aspect ratio. */
+.lab-slide-img {
+  height: 60vh;
+  width: auto;
+  max-width: 90vw;
+  display: block;
+  object-fit: contain;
+}
+
 #root {
   width: 100%;
 }

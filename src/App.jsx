@@ -17,7 +17,7 @@ import Products from './pages/Products'
 
 // Pages that own their header theme — they add `header-dark` themselves and
 // we shouldn't fight them with scroll-based detection.
-const ALWAYS_DARK_PAGES = ['/about', '/contact', '/terms']
+const ALWAYS_DARK_PAGES = ['/about', '/contact', '/terms', '/lab']
 
 function useHeaderDark(pathname) {
   useEffect(() => {

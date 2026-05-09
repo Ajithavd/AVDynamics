@@ -110,7 +110,10 @@ export default function Navigation({ menuRef, innerRef, onClose }) {
       className="invisible fixed top-0 left-0 w-full h-full overflow-hidden z-[1001]"
       style={{ background: "#7C7262" }}
     >
-      <div ref={innerRef} className="absolute inset-0 flex flex-col">
+      <div
+        ref={innerRef}
+        className="absolute inset-0 flex flex-col overflow-y-auto"
+      >
         {/* ── ROW 1: logo + close ── */}
         <div className="flex-shrink-0 site-grid pt-[3rem] pb-[1rem] items-center">
           <Link
@@ -143,8 +146,10 @@ export default function Navigation({ menuRef, innerRef, onClose }) {
           </div>
         </div>
 
-        {/* ── ROW 2: nav links — start from top at ~20% from left ── */}
-        <div className="flex-grow site-grid pt-[3rem] s:pt-[4rem]">
+        {/* ── ROW 2: nav links — start from top at ~20% from left.
+            `min-h-0` lets this row shrink under flex pressure instead of
+            pushing the bottom row off-screen on shorter viewports. */}
+        <div className="flex-grow min-h-0 site-grid pt-[3rem] s:pt-[4rem]">
           <ul
             className="col-start-4 s:col-start-3 col-span-6 s:col-span-12 flex flex-col"
             style={{
