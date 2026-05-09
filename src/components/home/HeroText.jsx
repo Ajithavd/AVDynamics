@@ -6,7 +6,7 @@ export default function HeroText() {
         className="uppercase font-heading font-medium text-center px-[2.4rem] s:px-[4rem]"
         style={{
           // fontSize: "clamp(7rem, 13vw, 50rem)",
-          fontSize: "clamp(5rem, 6.5vw, 50rem)",
+          fontSize: "clamp(5rem, 7vw, 50rem)",
           letterSpacing: "-0.015em",
           lineHeight: "0.90",
         }}

@@ -1,4 +1,4 @@
-import domeImg from '../assets/IMMERSIVE.png'
+import ndur from '../assets/ndur.png'
 
 export const products = [
   {
@@ -7,7 +7,7 @@ export const products = [
     title: 'NDÜR AI',
     description:
       'NDÜR combines cutting-edge technology with advanced AI to optimize your movement to prevent injuries and maximize your endurance performance with lab-grade accuracy',
-    image: domeImg,
+    image: ndur,
     aspect: 'aspect-1-1',
     align: 'right',
   },

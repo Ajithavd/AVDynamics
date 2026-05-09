@@ -110,11 +110,11 @@ export default function Contact() {
               style={{ width: "100%", alignItems: "start" }}
             >
               {/* Left: huge tagline — starts at X: col 2 */}
-              <div className="col-span-12 s:col-start-2 s:col-span-17">
+              <div className="col-span-12 s:col-start-2 s:col-span-20">
                 <h1
                   className="font-heading font-medium uppercase"
                   style={{
-                    fontSize: "clamp(5rem, 7.5vw, 14rem)",
+                    fontSize: "clamp(5rem, 6vw, 14rem)",
                     letterSpacing: "-0.05em",
                     lineHeight: 0.88,
                   }}

@@ -10,7 +10,7 @@ const navLinks = [
   // { label: "ABOUT", to: "/about" },
   { label: "PRODUCTS", to: "/products" },
   { label: "CONTACT", to: "/contact" },
-  { label: "LAB", to: "/lab" },
+  // { label: "LAB", to: "/lab" },
 ];
 
 const socialLinks = [

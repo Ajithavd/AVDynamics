@@ -138,11 +138,11 @@ export default function Footer() {
               Our address
             </span>
             <address className="small-uppercase text-white flex flex-col leading-[1.8]">
-              ECO Park
+              ECO PARK,
               <br />
-              Chetpet
+              DOME - 1st floor, Chetpet,
               <br />
-              Chennai, Tamil Nadu
+              Chennai--600 010, Tamil Nadu
               <br />
               India
             </address>
@@ -156,7 +156,7 @@ export default function Footer() {
             <ul className="flex flex-col items-start">
               <li className="small-uppercase text-white">
                 <a href="mailto:hello@avdynam.com" className="underlined">
-                  hello@avdynam.com
+                  info@avdynam.com
                 </a>
               </li>
               <li className="small-uppercase text-white">
@@ -207,11 +207,11 @@ export default function Footer() {
               All rights reserved
             </span>
             <ul className="col-span-8 s:col-span-4 flex justify-end s:justify-start">
-              <li className="tiny-uppercase text-white/60">
+              {/* <li className="tiny-uppercase text-white/60">
                 <Link to="/terms" className="underlined">
                   Terms &amp; Conditions
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

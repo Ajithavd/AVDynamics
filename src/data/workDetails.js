@@ -142,6 +142,9 @@
   import simulate2 from "../assets/simulate2.jpeg"
   import avarae1 from "../assets/avarae1.png"
   import avarae2 from "../assets/avarae2.png"
+  import alchemist from "../assets/alchemist.png"
+  import asis from "../assets/asis.png"
+
 
   
 
@@ -334,13 +337,13 @@
           title: 'ALCHEMIST THE LAKE VIEWERY',
           description:
             'Alchemist is a destination-driven hospitality concept designed around immersive ambience, curated culinary experiences, and contemporary lifestyle culture. Every element is crafted to create memorable social experiences with sophistication, creativity, and emotional connection.',
-          image: solar1,
+          image: alchemist,
         },
         {
           title: 'ASIS CAFE',
           description:
             'ASIS delivers refined hospitality experiences through modern aesthetics, immersive environments, and elevated customer engagement. Positioned as a premium experiential destination, it combines luxury, innovation, and lifestylefocused hospitality into one seamless experience.',
-          image: solar2,
+          image: asis,
         },
         
       ],
