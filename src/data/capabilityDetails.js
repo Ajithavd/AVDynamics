@@ -263,7 +263,7 @@ export const capabilityDetails = {
       ]
     },
     {
-      title: '•	Dashboard Systems ',
+      title: 'Dashboard Systems ',
       longDesc: [
         'IoT sensor dashboards and unified hardware diagnostic monitoring. We deploy cloud-connected dashboards that aggregate telemetry from projectors, displays, microphones, and codecs.',
         'Our systems track device temperature, link connection status, and power usage, using predictive analytics to flag potential issues before they cause downtime.'

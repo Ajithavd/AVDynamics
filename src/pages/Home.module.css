@@ -372,9 +372,9 @@
 
 /* SECTION 5 — LOGOS MARQUEE */
 .marqueeSection {
-  background-color: #0a0a0a;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
   padding: 4.5rem 0;
 }
 
@@ -383,7 +383,7 @@
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: rgba(255, 255, 255, 0.45);
+  color: var(--text-muted);
   margin-bottom: 2.5rem;
   font-weight: 700;
 }
@@ -392,7 +392,7 @@
   height: 42px;
   max-width: 140px;
   object-fit: contain;
-  filter: grayscale(1) brightness(1.3) contrast(0.85) opacity(0.65);
+  filter: grayscale(1) brightness(0.2) contrast(0.85) opacity(0.45);
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   cursor: default;
 }
@@ -981,6 +981,246 @@
   }
   .projectCard3D {
     height: 480px;
+  }
+}
+
+/* OUR APPROACH SECTION */
+.approach {
+  background-color: var(--bg-secondary);
+}
+
+.approachGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+  margin-top: 4rem;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .approachGrid::after {
+    content: '';
+    position: absolute;
+    top: 110px;
+    left: 8%;
+    right: 8%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(214, 40, 57, 0.05) 0%, var(--accent-red) 50%, rgba(214, 40, 57, 0.05) 100%);
+    z-index: 1;
+  }
+}
+
+.approachCard {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-light);
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+  border-top: 3px solid transparent;
+}
+
+.approachCard:hover {
+  transform: translateY(-6px);
+  border-top-color: var(--accent-red);
+  border-right-color: var(--border-light);
+  border-bottom-color: var(--border-light);
+  border-left-color: var(--border-light);
+  box-shadow: 0 20px 40px rgba(214, 40, 57, 0.05);
+}
+
+.approachStage {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent-red);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.approachCardIcon {
+  color: var(--accent-red);
+  background-color: rgba(214, 40, 57, 0.04);
+  width: 54px;
+  height: 54px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.approachCard:hover .approachCardIcon {
+  transform: scale(1.08);
+}
+
+.approachCard h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--text-dark);
+}
+
+.approachCard p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+/* INDUSTRIES WE SERVE SECTION */
+.sectors {
+  background-color: var(--bg-primary);
+}
+
+.sectorsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.sectorsCard {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: 16px;
+  padding: 2.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sectorsCard:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent-red);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.03);
+  background-color: var(--bg-primary);
+}
+
+.sectorsCardIcon {
+  color: var(--accent-red);
+  background-color: rgba(214, 40, 57, 0.05);
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  transition: all 0.4s ease;
+}
+
+.sectorsCard:hover .sectorsCardIcon {
+  background-color: var(--accent-red);
+  color: #ffffff;
+  transform: scale(1.08) rotate(5deg);
+}
+
+.sectorsCard h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1.4;
+}
+
+/* WHY AV DYNAMICS SECTION */
+.whyAv {
+  background-color: var(--bg-secondary);
+}
+
+.whyAvGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.whyAvCard {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-light);
+  border-radius: 16px;
+  padding: 2.2rem 1.5rem;
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  transition: var(--transition-smooth);
+}
+
+.whyAvCard:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-red);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.03);
+}
+
+.whyAvIcon {
+  color: var(--accent-red);
+  background-color: rgba(214, 40, 57, 0.05);
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.whyAvInfo {
+  flex: 1;
+}
+
+.whyAvInfo h3 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: var(--text-dark);
+}
+
+.whyAvInfo p {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* Moved Sections Media Queries */
+@media (max-width: 991px) {
+  .approachGrid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 1.5rem !important;
+  }
+  .sectorsGrid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1.5rem !important;
+  }
+  .whyAvGrid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  .whyAvCard {
+    padding: 2rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .approachGrid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .whyAvCard {
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+    padding: 2rem 1.5rem !important;
+  }
+  .sectorsGrid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
   }
 }
 

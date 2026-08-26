@@ -15,8 +15,8 @@
 
 .whyAvGrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
   margin-top: 3rem;
 }
 
@@ -24,9 +24,9 @@
   background-color: var(--bg-primary);
   border: 1px solid var(--border-light);
   border-radius: 16px;
-  padding: 3rem;
+  padding: 2.2rem 1.5rem;
   display: flex;
-  gap: 2rem;
+  gap: 1.25rem;
   align-items: flex-start;
   transition: var(--transition-smooth);
 }
@@ -169,8 +169,8 @@
 
 .visionGrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
   margin-top: 4rem;
 }
 
@@ -178,7 +178,7 @@
   background-color: var(--bg-secondary);
   border: 1px solid var(--border-light);
   border-radius: 16px;
-  padding: 4rem 3rem;
+  padding: 3rem 2rem;
   transition: var(--transition-smooth);
 }
 
@@ -220,9 +220,23 @@
 
 .approachGrid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
   margin-top: 4rem;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .approachGrid::after {
+    content: '';
+    position: absolute;
+    top: 110px;
+    left: 8%;
+    right: 8%;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(214, 40, 57, 0.05) 0%, var(--accent-red) 50%, rgba(214, 40, 57, 0.05) 100%);
+    z-index: 1;
+  }
 }
 
 .approachCard {
@@ -387,8 +401,8 @@
 
 .sectorsGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
   margin-top: 4rem;
 }
 
@@ -396,7 +410,7 @@
   background-color: var(--bg-secondary);
   border: 1px solid var(--border-light);
   border-radius: 16px;
-  padding: 3.5rem 2.5rem;
+  padding: 2.5rem 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -421,7 +435,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
   transition: all 0.4s ease;
 }
 
@@ -613,7 +627,7 @@
     grid-template-columns: 1fr;
   }
   .approachGrid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
   }
   .sectorsGrid {
@@ -718,6 +732,10 @@
   }
   .mobileYearBtn {
     flex: 0 0 auto !important;
+  }
+  .approachGrid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
   }
 }
 

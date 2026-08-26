@@ -10,17 +10,7 @@ import {
   Handshake,
   Users,
   Cpu,
-  ShieldCheck,
-  Search,
-  Palette,
-  Settings,
-  LifeBuoy,
-  Hotel,
-  Building2,
-  Store,
-  Music,
-  Landmark,
-  GraduationCap
+  Compass
 } from 'lucide-react';
 import styles from './About.module.css';
 
@@ -90,10 +80,18 @@ export default function About() {
               <span className="subtitle-red">Who We Are</span>
               <h1 className="heading-huge" style={{ marginBottom: '2.5rem' }}>About AV Dynamics</h1>
               <p className="body-large" style={{ color: 'var(--text-dark)', marginBottom: '1.5rem', fontWeight: '500' }}>
-                AVDYNAM resides at the intersection of architecture, hardware orchestration, and custom software systems.
+                Building the Systems Behind Better Experiences.
               </p>
               <p className="body-normal" style={{ marginBottom: '1.5rem' }}>
-                AV Dynamics is a systems integration and technology design company built on one belief: every space has the potential to feel intentional. We plan, engineer, and install audio-visual, security, LED, and immersive technology systems that turn ordinary rooms, venues, and campuses into environments people remember. From concept through commissioning, our multidisciplinary team works as an extension of our clients' vision — architects, project owners, event producers, and enterprises who need technology that simply works, beautifully.
+                AV Dynamics is a system integration and solution architecture company built around one belief: complex 
+challenges need connected thinking. 
+With more than 20 years of experience across our leadership and project capabilities, we bring together 
+technology, infrastructure, engineering, software and creative execution to design solutions that work 
+as one ecosystem. 
+Our work extends across surveillance, audio and acoustics, LED and visual technologies, immersive 
+environments, venue transformation, events, software and digital marketing. This multidisciplinary 
+capability allows us to move beyond isolated products and deliver complete solutions shaped around 
+the real needs of each project. a
               </p>
               
             </div>
@@ -116,230 +114,59 @@ export default function About() {
         </div>
       )}
 
-      {/* SECTION 1.5 — WHY AV DYNAMICS */}
-      <section className={`${styles.whyAv} section-padding`}>
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <span className="subtitle-red">AV Dynamics Advantage</span>
-            <h2 className="heading-huge">Why AV Dynamics</h2>
-            <p className="body-normal" style={{ maxWidth: '600px', margin: '1rem auto 0' }}>
-              We deliver elite-tier integration and project execution across critical infrastructures worldwide.
-            </p>
-          </div>
 
-          <div className={styles.whyAvGrid}>
-            {/* Card 1: End-to-end execution */}
-            <div className={styles.whyAvCard}>
-              <div className={styles.whyAvIcon}>
-                <Workflow size={28} />
-              </div>
-              <div className={styles.whyAvInfo}>
-                <h3>End-to-end execution</h3>
-                <div className={styles.executionFlow}>
-                  <span>Concept</span>
-                  <span className={styles.flowArrow}>&rarr;</span>
-                  <span>Design</span>
-                  <span className={styles.flowArrow}>&rarr;</span>
-                  <span>Procurement</span>
-                  <span className={styles.flowArrow}>&rarr;</span>
-                  <span>Installation</span>
-                  <span className={styles.flowArrow}>&rarr;</span>
-                  <span>Support</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Card 2: Multi-domain expertise */}
-            <div className={styles.whyAvCard}>
-              <div className={styles.whyAvIcon}>
-                <Cpu size={28} />
-              </div>
-              <div className={styles.whyAvInfo}>
-                <h3>Multi-domain expertise</h3>
-                <p>Smart cities, immersive tech, defense, AV & visual engineering</p>
-              </div>
-            </div>
-
-            {/* Card 3: Global capability */}
-            <div className={styles.whyAvCard}>
-              <div className={styles.whyAvIcon}>
-                <Globe size={28} />
-              </div>
-              <div className={styles.whyAvInfo}>
-                <h3>Global capability</h3>
-                <p>India, Malaysia, Georgia (and international deployments)</p>
-              </div>
-            </div>
-
-            {/* Card 4: Government + enterprise trust */}
-            <div className={styles.whyAvCard}>
-              <div className={styles.whyAvIcon}>
-                <ShieldCheck size={28} />
-              </div>
-              <div className={styles.whyAvInfo}>
-                <h3>Government + enterprise trust</h3>
-                <p>Proven delivery in critical infrastructure projects</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SECTION 2 — VISION & MISSION */}
+      {/* SECTION 2 — VISION, MISSION & PHILOSOPHY */}
       <section className={`${styles.vision} section-padding`}>
         <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
-            <span className="subtitle-red">Directives</span>
-            <h2 className="heading-huge">Our Core Philosophy</h2>
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <span className="subtitle-red">Purpose</span>
+            <h2 className="heading-huge">Building the Systems Behind Better Experiences</h2>
+            <p className="body-large" style={{ maxWidth: '850px', margin: '2rem auto 0', color: 'var(--text-muted)', lineHeight: '1.8' }}>
+              AV Dynamics is a system integration and solution architecture company built around one belief: complex 
+              challenges need connected thinking. With more than 20 years of experience across our leadership and project capabilities, we bring together technology, infrastructure, engineering, software and creative execution to design solutions that work as one ecosystem. Our work extends across surveillance, audio and acoustics, LED and visual technologies, immersive environments, venue transformation, events, software and digital marketing. This multidisciplinary capability allows us to move beyond isolated products and deliver complete solutions shaped around the real needs of each project.
+            </p>
           </div>
           
           <div className={styles.visionGrid}>
+            {/* Card 1: Our Vision */}
             <div className={styles.visionCard}>
               <div className={styles.visionIcon}>
                 <Eye size={28} />
               </div>
               <h3>Our Vision</h3>
               <p>
-                To be the most trusted name in experience engineering,
-where technology, design, and innovation come together
-to create immersive, intelligent, and meaningful environments
-that inspire people and transform every interaction.
+                To become a globally trusted partner for integrated technology, infrastructure and experience solutions 
+                across the spaces where people live, work, learn, perform and connect.
               </p>
             </div>
 
+            {/* Card 2: Our Mission */}
             <div className={styles.visionCard}>
               <div className={styles.visionIcon}>
                 <Target size={28} />
               </div>
               <h3>Our Mission</h3>
               <p>
-                To be the most trusted leader in experience engineering,
-where technology, creativity, and precision unite
-to design immersive environments that inspire, connect,
-and redefine the way people experience every space.
+                To architect and integrate purposeful technology solutions that create measurable value, stronger 
+                operations and meaningful experiences.
+              </p>
+            </div>
+
+            {/* Card 3: Our Philosophy */}
+            <div className={styles.visionCard}>
+              <div className={styles.visionIcon}>
+                <Compass size={28} />
+              </div>
+              <h3>Our Philosophy</h3>
+              <p>
+                Technology is only valuable when it works together. Our role is to connect the right systems, expertise 
+                and ideas into an outcome greater than the sum of its parts.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* NEW SECTION 3 — OUR APPROACH */}
-      <section className={`${styles.approach} section-padding`}>
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <span className="subtitle-red">Methodology</span>
-            <h2 className="heading-huge">Our Approach</h2>
-            <p className="body-large" style={{ maxWidth: '750px', margin: '1rem auto 0', color: 'var(--text-muted)' }}>
-              Every AV Dynamics engagement follows a structured, four-stage methodology designed to remove guesswork and protect project timelines:
-            </p>
-          </div>
-
-          <div className={styles.approachGrid}>
-            {/* Stage 1 */}
-            <div className={styles.approachCard}>
-              <span className={styles.approachStage}>Stage 01</span>
-              <div className={styles.approachCardIcon}>
-                <Search size={28} />
-              </div>
-              <h3>Discover</h3>
-              <p>Understanding the space, the brand, and the intended experience</p>
-            </div>
-
-            {/* Stage 2 */}
-            <div className={styles.approachCard}>
-              <span className={styles.approachStage}>Stage 02</span>
-              <div className={styles.approachCardIcon}>
-                <Palette size={28} />
-              </div>
-              <h3>Design</h3>
-              <p>Engineering system architecture, acoustics, and visual layouts</p>
-            </div>
-
-            {/* Stage 3 */}
-            <div className={styles.approachCard}>
-              <span className={styles.approachStage}>Stage 03</span>
-              <div className={styles.approachCardIcon}>
-                <Settings size={28} />
-              </div>
-              <h3>Deploy</h3>
-              <p>Precision installation, integration, and commissioning</p>
-            </div>
-
-            {/* Stage 4 */}
-            <div className={styles.approachCard}>
-              <span className={styles.approachStage}>Stage 04</span>
-              <div className={styles.approachCardIcon}>
-                <LifeBuoy size={28} />
-              </div>
-              <h3>Deliver & Support</h3>
-              <p>Training, documentation, and long-term maintenance</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* NEW SECTION 3.2 — INDUSTRY EXPERTISE */}
-      <section className={`${styles.sectors} section-padding`}>
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <span className="subtitle-red">Sectors</span>
-            <h2 className="heading-huge">Industry Expertise</h2>
-            <p className="body-large" style={{ maxWidth: '750px', margin: '1rem auto 0', color: 'var(--text-muted)' }}>
-              Our portfolio spans a wide range of sectors, each with its own technical and experiential demands:
-            </p>
-          </div>
-
-          <div className={styles.sectorsGrid}>
-            {/* Sector 1 */}
-            <div className={styles.sectorsCard}>
-              <div className={styles.sectorsCardIcon}>
-                <Hotel size={28} />
-              </div>
-              <h3>Hospitality & Hotels</h3>
-            </div>
-
-            {/* Sector 2 */}
-            <div className={styles.sectorsCard}>
-              <div className={styles.sectorsCardIcon}>
-                <Building2 size={28} />
-              </div>
-              <h3>Corporate & Commercial Real Estate</h3>
-            </div>
-
-            {/* Sector 3 */}
-            <div className={styles.sectorsCard}>
-              <div className={styles.sectorsCardIcon}>
-                <Store size={28} />
-              </div>
-              <h3>Retail & Experience Centers</h3>
-            </div>
-
-            {/* Sector 4 */}
-            <div className={styles.sectorsCard}>
-              <div className={styles.sectorsCardIcon}>
-                <Music size={28} />
-              </div>
-              <h3>Live Events & Entertainment</h3>
-            </div>
-
-            {/* Sector 5 */}
-            <div className={styles.sectorsCard}>
-              <div className={styles.sectorsCardIcon}>
-                <Landmark size={28} />
-              </div>
-              <h3>Government & Public Infrastructure</h3>
-            </div>
-
-            {/* Sector 6 */}
-            <div className={styles.sectorsCard}>
-              <div className={styles.sectorsCardIcon}>
-                <GraduationCap size={28} />
-              </div>
-              <h3>Education & Institutional Campuses</h3>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* NEW SECTION 3.3 — TECHNOLOGY + CREATIVITY (Immersive Split) */}
       <section className={`${styles.techCreative} section-padding`}>

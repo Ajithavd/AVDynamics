@@ -9,7 +9,25 @@ import {
   Radio, 
   Cpu, 
   Layers, 
-  ArrowRight
+  ArrowRight,
+  Search,
+  Workflow,
+  Settings,
+  LifeBuoy,
+  Landmark,
+  ShieldCheck,
+  GraduationCap,
+  Activity,
+  Trophy,
+  Hotel,
+  Building2,
+  Store,
+  Truck,
+  Music,
+  Leaf,
+  Award,
+  Handshake,
+  Globe
 } from 'lucide-react';
 import styles from './Home.module.css';
 import { servicesData } from '../data/servicesData';
@@ -155,14 +173,24 @@ export default function Home() {
         
         <div className="container" style={{ position: 'relative', zIndex: 10 }}>
           <div className={styles.heroContent}>
-            <span className={styles.heroSubtitle}>Transforming Spaces Through Technology</span>
+            <span className={styles.heroSubtitle}>Engineering What's Next</span>
             <span style={{ color: 'var(--text-light)', fontSize: '0.85rem', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.25em', display: 'block', marginBottom: '1.5rem' }}>
-              INDIA • MALAYSIA • ARMENIA • UAE
+              SYSTEM INTEGRATORS & SOLUTION ARCHITECTS 
             </span>
-            <h1 className={styles.heroTitle}>ENGINEERING INTELLIGENT ENVIRONMENTS & IMMERSIVE EXPERIENCE</h1>
+            <h1 className={styles.heroTitle}></h1>
+            <span style={{ color: 'var(--text-light)', fontSize: '0.65rem', fontWeight: '200',  letterSpacing: '0.35em', display: 'block', marginBottom: '1.5rem' }}>
+              Integrated Solutions for Smarter, Safer and More Engaging Environments. 
+            </span>
             <p className={styles.heroDesc}>
-              AV Dynamics is a full-spectrum systems integrator and technology architect, engineering cinematic audio-visual, security, and immersive environments for the spaces where brands, businesses, and events come alive.
+              AV Dynamics is a system integrator and solution architect with 20+ years of experience across 
+technology, infrastructure, audio-visual systems, surveillance, immersive experiences, software and live 
+events. We transform ideas and complex requirements into integrated, scalable and future-ready 
+solutions. 
             </p>
+
+            <span style={{ color: 'var(--text-light)', fontSize: '0.75rem', fontWeight: '300',  letterSpacing: '0.25em', display: 'block', marginBottom: '1.5rem' }}>
+              One partner. Every discipline. From strategy and solution architecture to full-scale system integration.
+            </span>
             <div className={styles.heroButtons}>
               <Link to="/services/cctv-solutions" className="btn btn-accent">
                 Explore Our Solutions <ArrowRight size={16} />
@@ -182,10 +210,15 @@ export default function Home() {
         <div className="container">
           <div className={styles.excellenceSplit}>
             <div className={styles.excellenceLeft}>
-              <h2 className="heading-huge">Delivering Excellence</h2>
+              <h2 className="heading-huge">Who We Are </h2>
               <p className={`${styles.excellenceDesc} body-large`}>
 
-                  <p>500+ Projects Delivered across corporate, hospitality, retail, and public infrastructure, backed by 15+ years of expertise in AV integration and smart technology solutions, with reliable 24/7 support and maintenance for every installation we deliver.</p>
+                  <p>We are architects of integrated experiences. AV Dynamics combines strategic thinking, engineering 
+expertise, technology integration and creative execution to build solutions that perform in the real 
+world. 
+From mission-critical surveillance and command environments to immersive attractions, intelligent 
+venues, LED ecosystems, live events and digital platforms, our approach connects multiple technologies 
+into one purposeful solution. </p>
 
               </p>
               <Link to="/contact" className={`btn ${styles.talkBtn}`}>
@@ -198,7 +231,7 @@ export default function Home() {
                 {/* Metric 1 */}
                 <div className={styles.excelCard}>
                   <span className={styles.excelNumber}>
-                    <Counter end="15" suffix="+" />
+                    <Counter end="20" suffix="+" />
                   </span>
                   <span className={styles.excelLabel}>Years Experience</span>
                 </div>
@@ -208,7 +241,7 @@ export default function Home() {
                   <span className={styles.excelNumber}>
                     <Counter end="98" suffix="%" />
                   </span>
-                  <span className={styles.excelLabel}>On-time & On-Budget</span>
+                  <span className={styles.excelLabel}> End-to-End Integration </span>
                 </div>
 
                 {/* Metric 3 */}
@@ -279,6 +312,291 @@ export default function Home() {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* NEW SECTION: OUR APPROACH (Moved from About) */}
+      <section className={`${styles.approach} section-padding`}>
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <span className="subtitle-red">Methodology</span>
+            <h2 className="heading-huge">Our Approach</h2>
+            <p className="body-large" style={{ maxWidth: '750px', margin: '1rem auto 0', color: 'var(--text-muted)' }}>
+              Every AV Dynamics engagement follows a structured, five-stage methodology designed to remove guesswork and protect project timelines:
+            </p>
+          </div>
+
+          <div className={styles.approachGrid}>
+            {/* Stage 1 */}
+            <div className={styles.approachCard}>
+              <span className={styles.approachStage}>Stage 01</span>
+              <div className={styles.approachCardIcon}>
+                <Search size={28} />
+              </div>
+              <h3>Discover</h3>
+              <p>Understand the objective, users, environment and operational challenges.</p>
+            </div>
+
+            {/* Stage 2 */}
+            <div className={styles.approachCard}>
+              <span className={styles.approachStage}>Stage 02</span>
+              <div className={styles.approachCardIcon}>
+                <Cpu size={28} />
+              </div>
+              <h3>Architect</h3>
+              <p>Create a solution strategy, system architecture and technology roadmap.</p>
+            </div>
+
+            {/* Stage 3 */}
+            <div className={styles.approachCard}>
+              <span className={styles.approachStage}>Stage 03</span>
+              <div className={styles.approachCardIcon}>
+                <Workflow size={28} />
+              </div>
+              <h3>Integrate</h3>
+              <p>Bring together the right technologies, partners and engineering disciplines.</p>
+            </div>
+
+            {/* Stage 4 */}
+            <div className={styles.approachCard}>
+              <span className={styles.approachStage}>Stage 04</span>
+              <div className={styles.approachCardIcon}>
+                <Settings size={28} />
+              </div>
+              <h3>Deliver</h3>
+              <p>Manage execution from planning and procurement to installation, testing and commissioning.</p>
+            </div>
+
+            {/* Stage 5 */}
+            <div className={styles.approachCard}>
+              <span className={styles.approachStage}>Stage 05</span>
+              <div className={styles.approachCardIcon}>
+                <LifeBuoy size={28} />
+              </div>
+              <h3>Support</h3>
+              <p>Provide training, optimisation, maintenance and long-term lifecycle support.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* NEW SECTION: INDUSTRIES WE SERVE (Moved from About) */}
+      <section className={`${styles.sectors} section-padding`}>
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <span className="subtitle-red">Sectors</span>
+            <h2 className="heading-huge">Industries We Serve</h2>
+            <p className="body-large" style={{ maxWidth: '750px', margin: '1rem auto 0', color: 'var(--text-muted)' }}>
+              Our portfolio spans a wide range of sectors, each with its own technical and experiential demands:
+            </p>
+          </div>
+
+          <div className={styles.sectorsGrid}>
+            {/* Sector 1: Government & Smart Cities */}
+            <div className={styles.sectorsCard}>
+              <div className={styles.sectorsCardIcon}>
+                <Landmark size={28} />
+              </div>
+              <h3>Government & Smart Cities</h3>
+            </div>
+
+            {/* Sector 2: Defence & Critical Infrastructure */}
+            <div className={styles.sectorsCard}>
+              <div className={styles.sectorsCardIcon}>
+                <ShieldCheck size={28} />
+              </div>
+              <h3>Defence & Critical Infrastructure</h3>
+            </div>
+
+            {/* Sector 3: Education & Research */}
+            <div className={styles.sectorsCard}>
+              <div className={styles.sectorsCardIcon}>
+                <GraduationCap size={28} />
+              </div>
+              <h3>Education & Research</h3>
+            </div>
+
+            {/* Sector 4: Healthcare & Wellness */}
+            <div className={styles.sectorsCard}>
+              <div className={styles.sectorsCardIcon}>
+                <Activity size={28} />
+              </div>
+              <h3>Healthcare & Wellness</h3>
+            </div>
+
+            {/* Sector 5: Sports & Performance */}
+            <div className={styles.sectorsCard}>
+              <div className={styles.sectorsCardIcon}>
+                <Trophy size={28} />
+              </div>
+              <h3>Sports & Performance</h3>
+            </div>
+
+            {/* Sector 6: Entertainment & Tourism */}
+            <div className={styles.sectorsCard}>
+              <div className={styles.sectorsCardIcon}>
+                <Tv size={28} />
+              </div>
+              <h3>Entertainment & Tourism</h3>
+            </div>
+
+            {/* Sector 7: Hospitality & F&B */}
+            <div className={styles.sectorsCard}>
+              <div className={styles.sectorsCardIcon}>
+                <Hotel size={28} />
+              </div>
+              <h3>Hospitality & F&B</h3>
+            </div>
+
+            {/* Sector 8: Corporate & Enterprise */}
+            <div className={styles.sectorsCard}>
+              <div className={styles.sectorsCardIcon}>
+                <Building2 size={28} />
+              </div>
+              <h3>Corporate & Enterprise</h3>
+            </div>
+
+            {/* Sector 9: Retail & Real Estate */}
+            <div className={styles.sectorsCard}>
+              <div className={styles.sectorsCardIcon}>
+                <Store size={28} />
+              </div>
+              <h3>Retail & Real Estate</h3>
+            </div>
+
+            {/* Sector 10: Transportation & Public Infrastructure */}
+            <div className={styles.sectorsCard}>
+              <div className={styles.sectorsCardIcon}>
+                <Truck size={28} />
+              </div>
+              <h3>Transportation & Public Infrastructure</h3>
+            </div>
+
+            {/* Sector 11: Media & Events */}
+            <div className={styles.sectorsCard}>
+              <div className={styles.sectorsCardIcon}>
+                <Music size={28} />
+              </div>
+              <h3>Media & Events</h3>
+            </div>
+
+            {/* Sector 12: Energy & Sustainability */}
+            <div className={styles.sectorsCard}>
+              <div className={styles.sectorsCardIcon}>
+                <Leaf size={28} />
+              </div>
+              <h3>Energy & Sustainability</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 6.5 — OEM / CLIENT LOGOS (Temporarily Commented Out)
+      <section className={styles.marqueeSection}>
+        <h3 className={styles.marqueeTitle}>Our Enterprise Core Technology Partners</h3>
+        <div className="marquee-container">
+          <div className="marquee-content">
+            {clientLogos.map((logo, index) => (
+              <img 
+                key={`logo-1-${index}`} 
+                src={logo.src} 
+                alt={logo.name} 
+                className={styles.clientLogoImage} 
+              />
+            ))}
+          </div>
+          <div className="marquee-content" aria-hidden="true">
+            {clientLogos.map((logo, index) => (
+              <img 
+                key={`logo-2-${index}`} 
+                src={logo.src} 
+                alt={logo.name} 
+                className={styles.clientLogoImage} 
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+      */}
+
+      {/* NEW SECTION: WHY AV DYNAMICS (Moved from About) */}
+      <section className={`${styles.whyAv} section-padding`}>
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <span className="subtitle-red">AV Dynamics Advantage</span>
+            <h2 className="heading-huge">Why AV Dynamics</h2>
+            <p className="body-normal" style={{ maxWidth: '600px', margin: '1rem auto 0' }}>
+              We deliver elite-tier integration and project execution across critical infrastructures worldwide.
+            </p>
+          </div>
+
+          <div className={styles.whyAvGrid}>
+            {/* Card 1: 20+ Years of Experience */}
+            <div className={styles.whyAvCard}>
+              <div className={styles.whyAvIcon}>
+                <Award size={28} />
+              </div>
+              <div className={styles.whyAvInfo}>
+                <h3>20+ Years of Experience</h3>
+                <p>Across technology, infrastructure and experience-led projects.</p>
+              </div>
+            </div>
+
+            {/* Card 2: One Integrated Partner */}
+            <div className={styles.whyAvCard}>
+              <div className={styles.whyAvIcon}>
+                <Handshake size={28} />
+              </div>
+              <div className={styles.whyAvInfo}>
+                <h3>One Integrated Partner</h3>
+                <p>From strategy and solution architecture to deployment and support.</p>
+              </div>
+            </div>
+
+            {/* Card 3: Multi-Domain Expertise */}
+            <div className={styles.whyAvCard}>
+              <div className={styles.whyAvIcon}>
+                <Cpu size={28} />
+              </div>
+              <div className={styles.whyAvInfo}>
+                <h3>Multi-Domain Expertise</h3>
+                <p>Across physical spaces, digital systems and live environments.</p>
+              </div>
+            </div>
+
+            {/* Card 4: Vendor-Neutral Architecture */}
+            <div className={styles.whyAvCard}>
+              <div className={styles.whyAvIcon}>
+                <ShieldCheck size={28} />
+              </div>
+              <div className={styles.whyAvInfo}>
+                <h3>Vendor-Neutral Architecture</h3>
+                <p>Focused on project requirements.</p>
+              </div>
+            </div>
+
+            {/* Card 5: Synergistic Integration */}
+            <div className={styles.whyAvCard}>
+              <div className={styles.whyAvIcon}>
+                <Workflow size={28} />
+              </div>
+              <div className={styles.whyAvInfo}>
+                <h3>Synergistic Integration</h3>
+                <p>Ability to combine engineering, technology, creativity and operational thinking.</p>
+              </div>
+            </div>
+
+            {/* Card 6: Scalable Solutions */}
+            <div className={styles.whyAvCard}>
+              <div className={styles.whyAvIcon}>
+                <Globe size={28} />
+              </div>
+              <div className={styles.whyAvInfo}>
+                <h3>Scalable Solutions</h3>
+                <p>For single-site, multi-location and large-format projects.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -442,32 +760,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 6.5 — OEM / CLIENT LOGOS */}
-      <section className={styles.marqueeSection}>
-        <h3 className={styles.marqueeTitle}>Our Enterprise Core Technology Partners</h3>
-        <div className="marquee-container">
-          <div className="marquee-content">
-            {clientLogos.map((logo, index) => (
-              <img 
-                key={`logo-1-${index}`} 
-                src={logo.src} 
-                alt={logo.name} 
-                className={styles.clientLogoImage} 
-              />
-            ))}
-          </div>
-          <div className="marquee-content" aria-hidden="true">
-            {clientLogos.map((logo, index) => (
-              <img 
-                key={`logo-2-${index}`} 
-                src={logo.src} 
-                alt={logo.name} 
-                className={styles.clientLogoImage} 
-              />
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* SECTION 7 — CTA */}
       <section className={`${styles.cta} section-padding`}>
