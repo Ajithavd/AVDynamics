@@ -1,380 +1,273 @@
 export const productSectionsData = {
   'nexlume': [
     {
-      title: 'Precision LED Display Technology',
-      subtitle: 'Engineered for Exceptional Visual Performance',
+      title: 'Precision Web & Mobile Architectures',
+      subtitle: 'Engineered for Scale and High Performance',
       paragraphs: [
-        'Nexlume delivers next-generation LED display solutions designed to transform how businesses communicate, advertise, and engage audiences. From ultra-fine pitch indoor video walls to high-impact outdoor digital billboards, every display is engineered for exceptional brightness, vivid colour reproduction, seamless image quality, and long-term reliability.',
-        'Whether installed in a corporate headquarters, retail destination, control room, hospitality venue, educational institution, or public infrastructure, Nexlume creates immersive visual experiences that remain clear and impactful in every environment.'
+        'Nexlume delivers next-generation web and mobile application solutions designed to optimize customer journeys and automate enterprise workloads. Utilizing modern architectures like React, Next.js, and serverless edge databases, we build fast, secure digital experiences.',
+        'Whether for internal enterprise systems or customer-facing mobile platforms, Nexlume creates clean, accessible interfaces that maximize speed and increase conversion rates.'
       ],
       listTitle: 'Core Advantages',
       listItems: [
-        'High brightness & contrast dynamics',
-        'Vivid, camera-ready color depth',
-        'Seamless modular cabinet panels',
-        'Built for 24/7 demanding operations'
+        'Serverless edge database integrations',
+        'Optimized Next.js page loading times',
+        'State-of-the-art UI/UX responsiveness',
+        'Rigorous automated security vetting'
       ]
     },
     {
-      title: 'Solutions for Every Environment',
-      subtitle: 'Built to Scale. Designed to Perform.',
+      title: 'Intelligent Visibility & Search Engines',
+      subtitle: 'Positioning Your Brand in Front of High-Intent Buyers',
       paragraphs: [
-        'No two spaces demand the same display solution. Nexlume offers a complete portfolio of LED technologies that adapt to projects of every size and complexity—from elegant reception displays and executive boardrooms to shopping malls, auditoriums, sports arenas, transportation hubs, and large-format outdoor advertising.'
+        'A beautiful website is only valuable when people can find it. Nexlume integrates data-driven Search Engine Optimization (SEO) strategies and automated schema markups directly into the software codebase, ensuring that your company dominates B2B and consumer search results.'
       ],
-      listTitle: 'Our solutions include:',
+      listTitle: 'Our SEO & Marketing Capabilities:',
       listItems: [
-        'Fine-Pitch Indoor LED Video Walls',
-        'Outdoor High-Brightness LED Displays',
-        'Digital Signage & Advertising Screens',
-        'Transparent LED Displays',
-        'Curved & Custom-Shaped LED Installations',
-        'Rental & Event LED Solutions',
-        'Interactive Display Systems',
-        'Control Room Visualization Walls'
+        'B2B and Enterprise Search Engine Optimization',
+        'Schema Markup and Semantic Web Structures',
+        'High-Performance Content Funnels',
+        'Conversion Rate Optimization (CRO) Metrics',
+        'Automated Inbound Lead Qualification Systems'
       ]
     },
     {
-      title: 'Complete Design, Installation & Support',
-      subtitle: 'Beyond Displays. End-to-End LED Solutions.',
+      title: 'Workflow Automation & System Integrations',
+      subtitle: 'Connecting Databases and Operations Seamlessly',
       paragraphs: [
-        'At Nexlume, we deliver more than LED panels—we provide complete visual communication ecosystems. Our team manages every stage of the project, from consultation and system design to installation, calibration, content integration, and long-term maintenance. Every solution is tailored to your operational requirements, ensuring dependable performance with minimal downtime.'
+        'We design and deploy secure APIs and webhook relays that unify your sales pipeline, client onboarding, and CRM tools. By replacing manual administrative chores with rules-based triggers, Nexlume accelerates business operations and reduces overhead.'
       ],
-      listTitle: 'Our Services Include:',
+      listTitle: 'Our Automation Integrations Include:',
       listItems: [
-        'Site Survey & Display Consultation',
-        'Custom LED System Design',
-        'Professional Installation & Commissioning',
-        'Content Management Integration',
-        'Video Processor & Controller Configuration',
-        'Preventive Maintenance & Health Monitoring',
-        'Technical Support & AMC Services',
-        'Future Expansion & System Upgrades'
+        'Custom RESTful and GraphQL API Development',
+        'CRM Syncing (Salesforce, HubSpot, Zoho)',
+        'Automated Transactional Email & Notification Relays',
+        'Payment Gateways & Subscription Billing Arrays',
+        'Cloud Telemetry and Outage Alerts'
       ]
     }
   ],
-  'ndur': [
+  'ndurance-ai': [
     {
-      title: 'Built for the Toughest Environments',
-      subtitle: 'Rugged Technology That Never Backs Down',
+      title: 'Wearable Telemetry Synchronization',
+      subtitle: 'Unified Biometric Aggregation in Real-Time',
       paragraphs: [
-        'NDUR is engineered for environments where reliability is non-negotiable. Designed to withstand harsh weather, heavy usage, dust, moisture, vibration, and extreme temperatures, NDUR products deliver uninterrupted performance in locations where conventional AV and security systems often fail.',
-        'From industrial facilities and transportation hubs to public infrastructure and outdoor venues, every solution is built to perform consistently under the most demanding conditions.'
+        'ndurance.ai integrates multi-sensor Bluetooth and cloud streams from rings, smartbands, and patches into a single predictive data engine. Our platform processes raw health telemetry to output structured strain, recovery, and readiness metrics.',
+        'By establishing baseline cardiovascular ranges, we deliver personalized performance thresholds that guide daily training volumes scientifically.'
       ],
-      listTitle: 'Core Advantages',
+      listTitle: 'Biometric Features',
       listItems: [
-        'Weatherproof & moisture resistant',
-        'High structural vibration dampening',
-        'Extreme temperature operational range',
-        'Industrial-grade structural longevity'
+        'Continuous Heart Rate Variability (HRV) tracking',
+        'SpO2 and sleep cycle analysis',
+        'Core temperature thermal shifts',
+        'Muscle oxygenation during threshold strain'
       ]
     },
     {
-      title: 'Solutions Engineered for Extreme Conditions',
-      subtitle: 'Reliable Performance. Anywhere.',
+      title: 'AI-Driven Fatigue Forecasting',
+      subtitle: 'LSTM Models Predicting Physical Limits',
       paragraphs: [
-        'NDUR offers a comprehensive range of ruggedized technology solutions developed for mission-critical and high-exposure environments. Every product is selected and engineered for maximum durability, environmental resistance, and long-term operational stability, ensuring dependable performance regardless of the conditions.'
+        'Our proprietary machine learning models analyze training history, sleep quality, and active stress indicators to forecast cardiovascular fatigue up to 48 hours in advance. This allows athletes and coaches to scale back training cycles before overreaching occurs.'
       ],
-      listTitle: 'Our Product Range',
+      listTitle: 'Predictive Capabilities',
       listItems: [
-        'Weatherproof Outdoor Displays',
-        'Industrial-Grade Surveillance Systems',
-        'IP-Rated Digital Signage Solutions',
-        'Outdoor LED & Information Display Systems',
-        'Rugged Audio & Public Address Systems',
-        'Smart Traffic & Transportation Displays',
-        'Control Room & Critical Monitoring Solutions',
-        'Protective Enclosures & Mounting Systems'
+        'Overtraining warning alerts',
+        'Injury risk anomaly detection',
+        'Optimized workout duration guides',
+        'Recovery timeline prediction algorithms'
       ]
     },
     {
-      title: 'Designed for Reliability. Supported for Life.',
-      subtitle: 'Complete Deployment & Lifecycle Support',
+      title: 'Metabolic & VO2 Testing Logging',
+      subtitle: 'Consolidating Laboratory and Wearable Analytics',
       paragraphs: [
-        'NDUR delivers more than rugged hardware—we provide complete infrastructure solutions backed by engineering expertise and long-term service. From site evaluation and environmental planning to installation, testing, preventive maintenance, and system upgrades, every deployment is tailored to withstand the challenges of its operating environment.'
+        'Log, track, and compare active fitness metrics including VO2 max, anaerobic threshold velocity, and lactate clearance curves. ndurance.ai acts as the single source of truth for physical performance data.'
       ],
-      listTitle: 'Our Services Include',
+      listTitle: 'Analysis & Tracking Tools',
       listItems: [
-        'Site Assessment & Environmental Analysis',
-        'Rugged System Design & Engineering',
-        'Professional Installation & Commissioning',
-        'Weatherproof Integration & Cable Management',
-        'Performance Testing & Certification',
-        'Preventive Maintenance Programs',
-        'Rapid Technical Support & AMC Services',
-        'Expansion, Upgrades & Lifecycle Management'
+        'VO2 Max progression charts',
+        'Lactate threshold metric correlation',
+        'Cardiac zone training distributions',
+        'Audit-ready fitness evaluation reports'
       ]
     }
   ],
-  'spatial': [
+  'avl': [
     {
-      title: 'Experience Technology, Reimagined',
-      subtitle: 'Where Audio, Visuals & Space Become One',
+      title: 'Electro-Acoustic Modeling & Acoustics',
+      subtitle: 'Scientific Precision for Audio Environments',
       paragraphs: [
-        'SPATIAL is our flagship experience-technology brand, bringing together professional audio, advanced video, architectural acoustics, and immersive digital experiences into a unified ecosystem. Designed to transform the way people connect with spaces, SPATIAL blends engineering precision with creative innovation to deliver environments that sound exceptional, look stunning, and leave lasting impressions.',
-        'From corporate boardrooms and auditoriums to museums, theatres, houses of worship, hospitality venues, and entertainment destinations, every solution is crafted to elevate the human experience.'
+        'AVL engineers acoustic designs from physical first principles. We use advanced sound simulation modeling software to plot loudspeaker coverage and eliminate sonic dead zones in auditoriums, houses of worship, and corporate boardrooms.',
+        'By matching custom acoustic treatments with precision speaker arrays, we deliver vocal intelligibility and musical definition.'
       ],
-      listTitle: 'Design Principles',
+      listTitle: 'Acoustic Core Tasks',
       listItems: [
-        'Seamless dynamic hardware tuning',
-        'Custom coordinate-mapped acoustics',
-        'Premium architectural blending',
-        'Highly engaging human integration'
+        'RT60 room decay calibration',
+        'Line-array and speaker angle calculations',
+        'Structural vibration isolation dampening',
+        'Ambient noise suppression tuning'
       ]
     },
     {
-      title: 'Integrated Solutions for Intelligent Spaces',
-      subtitle: 'Designed to Engage. Engineered to Perform.',
+      title: 'High-Definition Visual Display Networks',
+      subtitle: 'Seamless Video Displays and Signal Routing',
       paragraphs: [
-        'Every environment has its own purpose, audience, and acoustic character. SPATIAL delivers fully integrated AV and immersive technology solutions tailored to each space, ensuring seamless performance, intuitive operation, and exceptional sensory experiences. Whether it\'s crystal-clear speech reinforcement, cinematic projection, interactive installations, or immersive multimedia environments, every system is designed as a cohesive whole.'
+        'We integrate fine-pitch LED video walls, smart conference displays, and laser projection mapping with digital matrix routers. Our AVL setups ensure high-fidelity video feeds switch with zero frame delay.'
       ],
-      listTitle: 'Our Solutions Include',
+      listTitle: 'Visual Infrastructure Solutions:',
       listItems: [
-        'Professional Audio Systems',
-        'Line Array & Loudspeaker Solutions',
-        'Architectural Acoustic Treatments',
-        'Digital Signal Processing & System Control',
-        'Large-Format Projection & Display Systems',
-        'Projection Mapping & Immersive Installations',
-        'Conference & Collaboration Solutions',
-        'Interactive Experience Technologies',
-        'Stage, Theatre & Auditorium AV Systems',
-        'Smart Venue Automation & Integrated Controls'
+        'Indoor Direct-View LED Display Walls',
+        'Ultra-Short-Throw Laser Projection Matrices',
+        'Dante AV & AV-over-IP Signal Routers',
+        'Control Room Visualization Screens'
       ]
     },
     {
-      title: 'End-to-End Design, Integration & Support',
-      subtitle: 'Creating Spaces That Inspire',
+      title: 'Intelligent Lighting Scene Automation',
+      subtitle: 'Harmonized Ambient and Architectural Lighting',
       paragraphs: [
-        'SPATIAL provides complete lifecycle support—from concept development and acoustic modelling to AV system design, installation, programming, commissioning, and long-term maintenance. Our multidisciplinary team works closely with architects, consultants, designers, and clients to ensure technology integrates seamlessly into the built environment while delivering uncompromising performance.'
+        'AVL integrates smart DMX lighting systems with central environmental automation. Lighting transitions adapt to solar positions or specific scene modes with a single touch, reducing power footprint while maintaining proper atmospheric design.'
       ],
-      listTitle: 'Our Services Include',
+      listTitle: 'Smart Lighting Features:',
       listItems: [
-        'AV & Acoustic Consultation',
-        'System Design & Engineering',
-        'Acoustic Analysis & Room Optimization',
-        'Professional Installation & Calibration',
-        'AV Programming & Automation',
-        'Projection Mapping & Experience Integration',
-        'Preventive Maintenance & AMC Services',
-        'Technical Support, Upgrades & Future Expansion'
+        'Circadian Rhythm lighting alignment',
+        'One-touch DMX preset integration',
+        'Occupancy-sensor automatic shutoffs',
+        'Centralized building automation triggers'
       ]
     }
   ],
-  'sentinel': [
+  'mclane-productions': [
     {
-      title: 'Intelligent Surveillance. Trusted Protection.',
-      subtitle: 'Advanced Security Solutions for Modern Environments',
+      title: 'Experiential Stage & Truss Design',
+      subtitle: 'Heavy-Duty Certified Rigging and Truss Systems',
       paragraphs: [
-        'SENTINEL is our dedicated surveillance and security technology brand, delivering intelligent CCTV and monitoring solutions that protect people, property, and critical infrastructure. Combining high-performance imaging, AI-powered analytics, and centralized security management, SENTINEL enables organizations to achieve complete situational awareness and rapid incident response.',
-        'From commercial buildings and educational campuses to industrial facilities, healthcare institutions, hospitality venues, and smart cities, every solution is engineered for reliability, scalability, and continuous protection.'
+        'McLane Productions designs modular stage rigging systems certified to support heavy LED grids, audio line arrays, and automated stage lighting rigs. We manage physical engineering parameters on-site, ensuring absolute safety for live events.',
+        'From high-profile arena concerts to corporate stages, we deliver structural systems built for impact and dependability.'
       ],
-      listTitle: 'Core Strengths',
+      listTitle: 'Rigging Achievements',
       listItems: [
-        'High-definition imaging sensors',
-        'AI analytic-driven threat filters',
-        'Centralized surveillance cockpit',
-        'Scalable secure storage arrays'
+        'Up to 25 metric tons load capacity rigs',
+        'Flexible modular truss frameworks',
+        'Automated motion-controlled hoist rigs',
+        'Certified structural security vetting'
       ]
     },
     {
-      title: 'Smart Security Solutions for Every Space',
-      subtitle: 'Designed to Detect. Built to Protect.',
+      title: 'Redundant Signal Routing & Broadcast',
+      subtitle: 'Zero Blackout Staging Audio-Visual Control',
       paragraphs: [
-        'Every facility presents unique security challenges, and SENTINEL delivers surveillance systems tailored to meet those demands. Our comprehensive portfolio combines advanced imaging technology, intelligent video analytics, and centralized monitoring to provide real-time visibility, proactive threat detection, and seamless operational control across single-site and multi-location deployments.'
+        'Live events offer no second takes. McLane Productions deploys dual-engine redundant video matrix systems and Dante audio loops running in parallel frame-sync to ensure zero signal dropouts during concerts and keynotes.'
       ],
-      listTitle: 'Our Solutions Include',
+      listTitle: 'Staging Capabilities',
       listItems: [
-        'AI-Powered CCTV Camera Systems',
-        'IP & Network Video Surveillance',
-        'PTZ, Bullet, Dome & Thermal Cameras',
-        'Video Management Systems (VMS)',
-        'Centralized Monitoring & Command Centers',
-        'Facial Recognition & Intelligent Analytics',
-        'License Plate Recognition (ANPR/LPR)',
-        'Perimeter Protection & Intrusion Detection',
-        'Remote Monitoring & Mobile Access',
-        'Integrated Security & Access Control Solutions'
+        'Redundant primary & secondary signal routing',
+        'Low-latency 12G-SDI multi-camera switchers',
+        'Master SMPTE Timecode synchronization',
+        'Live-to-air local broadcast encoder grids'
       ]
     },
     {
-      title: 'End-to-End Security Integration & Support',
-      subtitle: 'Protecting What Matters, Every Hour of Every Day',
+      title: 'On-site Technical Crew Orchestration',
+      subtitle: 'Professional Support Teams Managing Every Cue',
       paragraphs: [
-        'SENTINEL provides complete surveillance lifecycle services—from security assessments and system design to installation, integration, commissioning, and ongoing maintenance. Our engineers design security ecosystems that seamlessly integrate with existing infrastructure while remaining flexible for future expansion and evolving operational needs.'
+        'Every McLane project is staffed by certified live engineers, sound designers, and light operators. We coordinate on-site logistics, manage spectrum allocation for wireless gear, and handle rapid-response technical troubleshooting.'
       ],
-      listTitle: 'Our Services Include',
+      listTitle: 'On-Site Services Include:',
       listItems: [
-        'Security Risk Assessment & Site Survey',
-        'CCTV System Design & Engineering',
-        'Professional Installation & Commissioning',
-        'AI Analytics & Video Management Configuration',
-        'Command Center & Control Room Integration',
-        'Preventive Maintenance & AMC Services',
-        'Remote Diagnostics & Technical Support',
-        'System Expansion, Upgrades & Performance Optimization'
-      ]
-    }
-  ],
-  'mclane': [
-    {
-      title: 'Powering Extraordinary Live Experiences',
-      subtitle: 'Professional Event Technology & Production Solutions',
-      paragraphs: [
-        'Mclane is our dedicated events and production division, delivering the technology and infrastructure behind unforgettable live experiences. From corporate conferences and concerts to exhibitions, cultural events, sporting venues, and large-scale public gatherings, Mclane provides production-grade equipment and expert technical support that ensures every event runs flawlessly.',
-        'Engineered for reliability, rapid deployment, and exceptional performance, our solutions empower event organizers to create immersive experiences with confidence.'
-      ],
-      listTitle: 'Production Values',
-      listItems: [
-        'Event execution with zero lag',
-        'High-density power backup grids',
-        'Stunning visuals & clear sound',
-        'Engineered for fast rig setup'
-      ]
-    },
-    {
-      title: 'Complete Event Production Solutions',
-      subtitle: 'From Concept to Curtain Call',
-      paragraphs: [
-        'Every event demands precision, coordination, and dependable technology. Mclane offers an extensive portfolio of professional production solutions designed to meet the needs of events of every scale. Whether it\'s a corporate launch, live concert, exhibition, festival, or convention, our systems are engineered to deliver outstanding performance while adapting seamlessly to dynamic event environments.'
-      ],
-      listTitle: 'Our Solutions Include',
-      listItems: [
-        'Professional Sound Reinforcement Systems',
-        'LED Video Walls & Display Solutions',
-        'Stage Lighting & Intelligent Lighting Systems',
-        'Modular Stage & Truss Structures',
-        'Live Video Production & Switching',
-        'Projection & Presentation Systems',
-        'Event Rigging & Power Distribution',
-        'Live Streaming & Hybrid Event Solutions',
-        'Conference & Corporate Event AV',
-        'Temporary Event Infrastructure & Technical Support'
-      ]
-    },
-    {
-      title: 'End-to-End Event Production Services',
-      subtitle: 'Delivering Every Show with Precision',
-      paragraphs: [
-        'Mclane provides comprehensive production services covering every stage of event execution—from technical planning and equipment selection to installation, live operation, dismantling, and post-event support. Our experienced production team works closely with organizers, venues, artists, and production partners to ensure every detail is executed with professionalism and precision.'
-      ],
-      listTitle: 'Our Services Include',
-      listItems: [
-        'Event Planning & Technical Consultation',
-        'Production Design & Equipment Specification',
-        'Stage, Lighting & AV System Setup',
-        'Live Event Operations & Technical Management',
-        'Audio, Video & Lighting Control',
-        'Equipment Rental & Logistics',
-        'On-Site Technical Support',
-        'Post-Event Dismantling & Asset Management'
+        'Wireless Frequency Spectrum Scanning',
+        'Staging Rigging & Setup Inspections',
+        'Live Technical Crew Scheduling',
+        'Post-Production Staging Recovery'
       ]
     }
   ],
   'green-sphere': [
     {
-      title: 'Sustainable Energy for Intelligent Infrastructure',
-      subtitle: 'Powering Tomorrow with Clean, Reliable Energy',
+      title: 'Battery Energy Storage Systems (BESS)',
+      subtitle: 'Intelligent Lithium Battery Microgrid Infrastructure',
       paragraphs: [
-        'Green Sphere is AV Dynamics\' sustainable energy division, delivering advanced Battery Energy Storage Systems (BESS) and solar power solutions that help organizations transition toward cleaner, more resilient energy infrastructure. By combining renewable energy generation with intelligent energy storage and management, Green Sphere enables businesses, commercial facilities, institutions, and public infrastructure to reduce operational costs, improve energy reliability, and achieve long-term sustainability goals without compromising performance.'
+        'Green Sphere integrates commercial Battery Energy Storage Systems (BESS) designed to store power during off-peak windows or harvest renewable solar energy. Our smart battery cabinets act as a fail-safe backup grid during municipal blackouts.',
+        'By managing battery charge and discharge thresholds dynamically, we safeguard your operations from voltage anomalies and grid failures.'
       ],
-      listTitle: 'Environmental Assets',
+      listTitle: 'BESS Advantages',
       listItems: [
-        'Solar grid-tied synchronization',
-        'Advanced BESS battery clusters',
-        'Reduced environmental footprint',
-        'Intelligent load telemetry grids'
+        'Heavy-duty LiFePO4 battery pack clusters',
+        'Smart thermal cell regulation layers',
+        'Sub-16ms automatic power transfer',
+        '6,000+ cycle operational durability'
       ]
     },
     {
-      title: 'Integrated Renewable Energy Solutions',
-      subtitle: 'Smarter Energy. Greater Efficiency.',
+      title: 'Hybrid Solar Grid Integrations',
+      subtitle: 'Clean, Renewable Power Sourced On-Site',
       paragraphs: [
-        'Modern facilities require energy systems that are efficient, scalable, and prepared for the future. Green Sphere provides end-to-end renewable energy solutions that seamlessly integrate with existing electrical infrastructure, ensuring optimized energy consumption, reduced grid dependency, and uninterrupted power availability during peak demand or outages.'
+        'We design and deploy rooftop solar arrays and grid-tied solar systems that sync clean energy directly with building grids, reducing dependence on public utility power and cutting carbon footprints.'
       ],
-      listTitle: 'Our Solutions Include',
+      listTitle: 'Solar Capabilities:',
       listItems: [
-        'Battery Energy Storage Systems (BESS)',
-        'Grid-Tied & Hybrid Solar Power Systems',
-        'Commercial & Industrial Solar Solutions',
-        'Rooftop & Ground-Mounted Solar Installations',
-        'Smart Energy Monitoring & Management',
-        'Solar Inverters & Power Conversion Systems',
-        'EV Charging Infrastructure Integration',
-        'Backup Power & Microgrid Solutions',
-        'Energy Optimization & Load Management',
-        'Renewable Energy System Expansion'
+        'High-Efficiency Monocrystalline Photovoltaic Cells',
+        'Smart Power Inverters & Rectifiers',
+        'Net Metering & Grid Feed Controllers',
+        'Weather-Rated Mounting Systems'
       ]
     },
     {
-      title: 'End-to-End Energy Engineering & Support',
-      subtitle: 'Complete Renewable Energy Lifecycle Services',
+      title: 'ESG Data Telemetry & Analytics',
+      subtitle: 'Automated Reporting for Environmental Accounting',
       paragraphs: [
-        'Green Sphere delivers comprehensive renewable energy services—from feasibility studies and energy audits to system design, installation, commissioning, monitoring, and long-term maintenance. Our engineers work closely with clients to design scalable energy ecosystems that balance performance, reliability, and sustainability while adapting to future growth and evolving energy demands.'
+        'Track, monitor, and compile audit-ready energy metrics. Green Sphere dashboards integrate with IoT building sensors to export certified carbon reduction reports, showing energy reductions.'
       ],
-      listTitle: 'Our Services Include',
+      listTitle: 'Compliance Tools:',
       listItems: [
-        'Energy Assessment & Site Feasibility Studies',
-        'Solar & BESS System Design',
-        'Engineering, Procurement & Installation (EPC)',
-        'Grid Integration & Commissioning',
-        'Smart Monitoring & Performance Analytics',
-        'Preventive Maintenance & AMC Services',
-        'Technical Support & System Optimization',
-        'Future Expansion & Energy Infrastructure Upgrades'
+        'Real-time IoT load-shifting monitoring',
+        'Automatic carbon offset reporting',
+        'Modbus and MQTT building automation sync',
+        'One-click PDF/CSV ESG compliance exports'
       ]
     }
   ],
-  'alchemist': [
+  'fb-ventures': [
     {
-      title: 'Technology Crafted for Exceptional Hospitality',
-      subtitle: 'Creating Memorable Guest Experiences',
+      title: 'Sensory Dinerscape & Design Integration',
+      subtitle: 'Where Fine Dining Meets Immersive Storytelling',
       paragraphs: [
-        'Alchemist is our hospitality-focused technology brand, dedicated to transforming hotels, resorts, restaurants, cafés, lounges, and luxury guest spaces into intelligent, immersive environments. By seamlessly integrating lighting, audio, visual systems, automation, and digital experiences, Alchemist enhances comfort, ambience, and operational efficiency while preserving the elegance of architectural design. Every solution is thoughtfully engineered to create welcoming spaces where technology remains intuitive, discreet, and centered around the guest experience.'
+        'F&B Ventures creates premium hospitality concepts that coordinate spatial audio, projection mapping, and aroma diffusion. We transform dining tables into interactive visual canvases that change themes depending on the dish being served.',
+        'By bridging digital art and physical design, we craft unforgettable culinary journeys that keep guests engaged.'
       ],
-      listTitle: 'Design Pillars',
+      listTitle: 'Sensory Features',
       listItems: [
-        'Discreet hardware placement',
-        'Tunable atmospheric lighting',
-        'Multi-room audio distributions',
-        'Intuitive automated interface'
+        'Spatial acoustic zone speaker matrices',
+        'Interactive projection mapped tabletops',
+        'Scent-diffusing atmospheric nozzles',
+        'Bespoke architectural aesthetic designs'
       ]
     },
     {
-      title: 'Smart Hospitality Solutions',
-      subtitle: 'Designed Around Every Guest Journey',
+      title: 'Smart Hospitality Atmosphere Automation',
+      subtitle: 'Tunable Circadian Lighting and Acoustic Tuning',
       paragraphs: [
-        'Every hospitality venue has its own character, atmosphere, and service philosophy. Alchemist delivers integrated technology solutions that elevate every touchpoint—from arrival and dining to entertainment and accommodation. Our systems work together to create personalized environments that improve guest satisfaction, streamline operations, and strengthen brand identity.'
+        'Our venues use smart lighting networks to adjust color temperature and brightness dynamically to align with natural daylight cycles, maximizing guest comfort and shifting the venue mood from bright daytime cafe to intimate evening lounge.'
       ],
-      listTitle: 'Our Solutions Include',
+      listTitle: 'Atmosphere Controls:',
       listItems: [
-        'Smart Guest Room Automation',
-        'Intelligent Lighting Control Systems',
-        'Professional Background Music & Audio',
-        'Digital Signage & Wayfinding Displays',
-        'Hotel IPTV & In-Room Entertainment',
-        'Restaurant & Lounge AV Solutions',
-        'Conference & Banquet Hall Technology',
-        'Access Control & Smart Room Management',
-        'Energy Management & Building Automation',
-        'Centralized Hospitality Control Platforms'
+        'Circadian Tunable Lighting Presets (2200K - 6500K)',
+        'Automated background sound level adjusting',
+        'Eco-friendly HVAC integration based on occupancy',
+        'Zoned air temperature remote configurations'
       ]
     },
     {
-      title: 'Complete Hospitality Technology Integration',
-      subtitle: 'From Concept to Guest Experience',
+      title: 'Unified Point-of-Sale & Seating Control',
+      subtitle: 'Seamless Hospitality Operations Systems',
       paragraphs: [
-        'Alchemist provides end-to-end hospitality technology services, partnering with architects, interior designers, hotel operators, and hospitality brands to create intelligent environments that balance luxury, functionality, and operational excellence. From initial consultation and system design to installation, commissioning, staff training, and long-term support, every project is delivered with meticulous attention to detail.'
+        'F&B Ventures consolidates table sensors, restaurant POS tools, and smart lighting controls into a single dashboard. This allows restaurant managers to monitor seating times, alter background aesthetics, and check orders instantly.'
       ],
-      listTitle: 'Our Services Include',
+      listTitle: 'Hospitality Operations Tools:',
       listItems: [
-        'Hospitality Technology Consultation',
-        'AV & Automation System Design',
-        'Smart Room Integration',
-        'Lighting & Ambience Programming',
-        'Installation & System Commissioning',
-        'Building Management System Integration',
-        'Preventive Maintenance & AMC Services',
-        'Technical Support, Upgrades & Future Expansion'
+        'Connected table status occupancy sensors',
+        'Unified iPad managers control console',
+        'Dynamic digital menu projection panels',
+        'POS API link for transaction-triggered lights'
       ]
     }
   ]

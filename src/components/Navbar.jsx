@@ -35,12 +35,11 @@ const iconMap = {
 
 const productIconMap = {
   nexlume: Tv,
-  ndur: Server,
-  spatial: Volume2,
-  sentinel: Shield,
-  mclane: Activity,
+  'ndurance-ai': Activity,
+  avl: Volume2,
+  'mclane-productions': Radio,
   'green-sphere': Leaf,
-  alchemist: Flame
+  'fb-ventures': Flame
 };
 
 export default function Navbar() {

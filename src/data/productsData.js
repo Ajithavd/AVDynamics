@@ -2,37 +2,36 @@ export const productsData = [
   {
     slug: 'nexlume',
     title: 'Nexlume',
-    headline: 'Nexlume is our dedicated LED products division, engineering fine-pitch video walls, digital signage, and large-format outdoor displays. Built for demanding commercial environments, Nexlume panels combine high brightness, colour accuracy, and long service life with the flexibility to scale from a single boardroom screen to a stadium façade.',
+    headline: 'A technology and digital growth platform focused on intelligent digital experiences, websites, automation, visibility and business growth systems.',
     shortDesc: 'Nexlume LED, LED display brand, proprietary LED solutions',
     image: '/nexlume.png',
-    story: 'Nexlume represents the pinnacle of micro-LED technology. Designed for situations where every pixel matters, it offers absolute color accuracy, deep structural blacks, and a seamless visual canvas. From high-stakes boardrooms to major broadcast studios, Nexlume redefines digital environments.',
-    valueProp: 'Nexlume matches sub-millimeter pixel pitches with advanced heat dissipation and dynamic power supplies. The result is a display that operates cooler, draws less power, and maintains flawless visual consistency across decades.',
+    story: 'Nexlume drives digital acceleration by connecting advanced software development with intelligent marketing ecosystems. We build robust web frameworks, automate complex business processes, and engineer search visibility layers that turn web traffic into measurable growth.',
+    valueProp: 'We replace fragmented marketing agencies and software vendors with a unified growth engineering platform, ensuring your digital presence is fast, secure, and built to convert.',
     features: [
       {
-        title: '0.9mm MicroPixel Pitch',
-        desc: 'Unmatched sharpness that remains crisp and visible even from inches away, ideal for ultra-close viewing.'
+        title: 'Custom Web Architectures',
+        desc: 'High-performance React, Next.js, and Jamstack platforms built for speed, responsiveness, and enterprise-grade security.'
       },
       {
-        title: 'HDR10+ & Rec. 2020 Support',
-        desc: 'Reproduces over a billion colors with perfect dynamic range, creating lifelike cinematic views.'
+        title: 'Workflow Automation',
+        desc: 'Connecting CRM, APIs, databases, and sales pipes to automate manual processes and streamline operations.'
       },
       {
-        title: 'Ultra-Cool Driver Tech',
-        desc: 'Advanced semiconductor substrates that minimize thermal emissions and increase product lifespan by 40%.'
+        title: 'SEO & Visibility Engines',
+        desc: 'Data-driven search engine optimization that positions brands in front of high-intent enterprise buyers and partners.'
       }
     ],
     benefits: [
-      'Seamless Visual Canvas (Modular design with zero seam artifacts)',
-      'Camera-Ready Refresh Rates (7680Hz refresh prevents scanning lines under lens)',
-      'Front-Serviceable Modules (Magnetic alignment permits single-module replacement in under 30 seconds)'
+      '99.9% Uptime SLA (Enterprise-grade web hosting and serverless deployments)',
+      'Measurable Growth Metrics (Integrated analytics dashboards showing real-time traffic and ROI)',
+      'Seamless Platform Integrations (Connect physical and digital operations via secure REST APIs)'
     ],
-    industries: ['Corporate HQs', 'Television Broadcast', 'Luxury Hospitality', 'Control Rooms'],
+    industries: ['Corporate & Enterprise', 'Technology Startups', 'E-commerce Platforms', 'Digital Ventures'],
     specifications: {
-      'Pixel Pitch': '0.9mm / 1.2mm / 1.5mm',
-      'Max Brightness': '1600 nits (calibrated)',
-      'Contrast Ratio': '20,000:1',
-      'Refresh Rate': '7680Hz',
-      'Cabinet Ratio': '16:9 aspect native'
+      'Core Frameworks': 'React / Next.js / Node.js',
+      'Database Integration': 'PostgreSQL / MongoDB / Firebase',
+      'API Connectivity': 'REST / GraphQL / WebSockets',
+      'SEO Audit Score': 'Automated schema markup and speed index tuning'
     },
     showcaseImages: [
       'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80',
@@ -40,39 +39,38 @@ export const productsData = [
     ]
   },
   {
-    slug: 'ndur',
-    title: 'NDURANCE',
-    headline: 'NDURANCE represents our commitment to durability — a line engineered for environments where standard AV and security equipment struggle: outdoor installations, high-traffic public spaces, and industrial settings. NDUR products are built to endure, so performance never depends on the weather or the wear.',
-    shortDesc: 'NDURANCE AV Dynamics, rugged AV systems, durable technology brand',
+    slug: 'ndurance-ai',
+    title: 'ndurance.ai',
+    headline: 'Performance intelligence for athletes and active individuals, combining AI, wearable technology, testing, analytics and performance insights.',
+    shortDesc: 'AI performance intelligence, wearable analytics, and athletic testing insights',
     image: '/ndur.png',
-    story: 'NDURANCE is forged to survive the most grueling conditions while rendering brilliant, high-contrast imagery. IP66 weatherproof certified, NDUR modules are designed for stadiums, transport terminals, and high-visibility architectural facades exposed to blazing sun, torrential rain, and sub-zero ice.',
-    valueProp: 'Built with marine-grade structural alloys and high-efficiency optical diodes, NDUR cuts through direct midday sunlight without overheating or dimming.',
+    story: 'ndurance.ai is a performance analytics ecosystem that transforms physical data into elite competitive advantage. By syncing wearable sensor arrays with real-time biometric analysis, our AI platform calculates fatigue thresholds, metabolic load, and recovery timelines for athletes and high-performance teams.',
+    valueProp: 'Move beyond generic fitness tracking. ndurance.ai delivers laboratory-grade biometric testing and personalized coaching algorithms to maximize output and minimize injury risks.',
     features: [
       {
-        title: 'IP66 Weatherproofing',
-        desc: 'Fully encapsulated electronics that completely repel water, high dust, salt, and sand.'
+        title: 'Biometric Wearable Sync',
+        desc: 'Integrate telemetry from leading multi-sensor rings, fitness bands, and medical-grade patches.'
       },
       {
-        title: '10,000 Nits Brightness',
-        desc: 'Extreme-luminance diodes that deliver highly readable graphics even under direct sunlight.'
+        title: 'AI Fatigue Prediction',
+        desc: 'Machine learning neural models that forecast physical fatigue levels and suggest optimal training volumes.'
       },
       {
-        title: 'Intelligent Thermal Venting',
-        desc: 'Integrated fanless convection venting that keeps operating temperatures safe without filter cleaning.'
+        title: 'Metabolic Testing Engine',
+        desc: 'Digital logging and tracking of VO2 max, lactate thresholds, heart rate variability, and cardiac metrics.'
       }
     ],
     benefits: [
-      'High Sunlight Visibility (Stunning legibility regardless of solar position)',
-      'Vandal-Resistant Shielding (Toughened structural materials withstand physical impacts)',
-      'Automated Daylight Sensors (Dims display during nighttime to comply with municipal emission rules)'
+      'Predictive Injury Prevention (Machine learning flags strain imbalances before injuries occur)',
+      'Real-Time Coached Workouts (Audio cues adjust intensity dynamically based on heart rate variability)',
+      'Comprehensive Athletic Dashboard (Consolidate lab testing, wearable data, and sleep logs)'
     ],
-    industries: ['Outdoor Arenas', 'Transit Terminals', 'Smart Retail Hubs', 'Sports Stadiums'],
+    industries: ['Athletic Performance Centres', 'Professional Sports Teams', 'Sports Science Labs', 'Fitness & Wellness Groups'],
     specifications: {
-      'Weather Protection': 'IP66 rating',
-      'Luminance Range': 'Up to 10,000 cd/m²',
-      'Pixel Pitch': '3.9mm / 4.8mm / 6.2mm',
-      'Viewing Angle': '160° Horizontal / Vertical',
-      'Operational Limits': '-40°C to +60°C'
+      'Data Sync Latency': '< 1 second bluetooth/cloud handshakes',
+      'Biometric Trackers': 'HRV, SpO2, Core Temp, VO2, Muscle Oxygenation',
+      'AI Processing Engine': 'Proprietary LSTM network training load prediction',
+      'Security Compliance': 'HIPAA-compliant end-to-end encrypted storage'
     },
     showcaseImages: [
       'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80',
@@ -80,39 +78,38 @@ export const productsData = [
     ]
   },
   {
-    slug: 'spatial',
-    title: 'Spatial',
-    headline: 'SPATIAL is our flagship experience-technology brand, unifying audio, video, acoustics, and immersive systems under a single design language. From precision-tuned loudspeaker arrays to projection-mapped installations, SPATIAL products are engineered to make environments feel alive — used across our Immersive Experience and Audio & Acoustics service lines.',
-    shortDesc: 'SPATIAL AV Dynamics, immersive audio video brand, acoustic technology products',
-    image: '/spatial.png',
-    story: 'Spatial is a revolutionary real-time acoustic rendering system. Instead of panning sound between classic left-right channels, Spatial treats sounds as distinct coordinate-based objects. As these digital audio assets move, our DSP automatically calculates phase, volume, and reflections for hundreds of speaker nodes.',
-    valueProp: 'Spatial enables immersive centers, retail environments, and premium boardrooms to deliver natural, three-dimensional auditory environments.',
+    slug: 'avl',
+    title: 'AVL',
+    headline: 'A focused ecosystem for professional audio, visual and lighting technologies supporting integrated environments and live experiences.',
+    shortDesc: 'Professional audio, visual, and lighting systems integration',
+    image: '/audio.png',
+    story: 'AVL represents the peak of architectural systems integration. We harmonize sound design, visual displays, and intelligent lighting networks into one cohesive physical ecosystem, ensuring that commercial venues and live spaces perform flawlessly under any operational demands.',
+    valueProp: 'We eliminate vendor conflict by engineering audio, video, and lighting as a unified network, delivering crystal-clear acoustics and striking visuals.',
     features: [
       {
-        title: 'Coordinate-Based Tracking',
-        desc: 'Define sound origins in a 3D coordinate model; our engine takes care of the math for all physical speaker nodes.'
+        title: 'Professional Sound Design',
+        desc: 'Precision 3D modeling of sound fields, loudspeaker coverage, and room acoustics for auditoriums and corporate spaces.'
       },
       {
-        title: 'Sub-Millisecond Rendering',
-        desc: 'Real-time positioning with zero latency, syncing perfectly with interactive visuals and projections.'
+        title: 'Visual Display Networks',
+        desc: 'Direct-view LED video walls, high-brightness projection systems, and digital matrix signal routing.'
       },
       {
-        title: 'Smart Acoustic Tuning',
-        desc: 'Analyzes room echoes and automatically structures EQ curves to compensate for reflections.'
+        title: 'Intelligent Light Control',
+        desc: 'Dynamic scene automation, architectural accent lighting, and DMX console synchronization.'
       }
     ],
     benefits: [
-      'True Spatial Immersion (Sounds move naturally with simulated distance dynamics)',
-      'Legacy Speaker Compatible (Operates on standard Dante digital audio networks)',
-      'Highly Intuitive Software (Drag-and-drop spatial coordinate map UI)'
+      'Unified Operational Console (Single-touch panel adjustments for sound, screens, and lighting)',
+      'Acoustic Clarity (Strategic absorption and line-array placement removes echo dead-zones)',
+      'Energy-Efficient Automation (Circadian scheduling and auto load-shedding lowers power utility bills)'
     ],
-    industries: ['Experience Centers', 'Theme Parks', 'Auditoriums', 'Modern Corporate Spaces'],
+    industries: ['Corporate HQs', 'Auditoriums & Theatres', 'Educational Institutions', 'Public Spaces'],
     specifications: {
-      'Audio Channels': 'Up to 256 channels discrete output',
-      'Network Protocol': 'Dante / AES67 standard support',
-      'Core Processors': 'Dual redundant floating-point DSPs',
-      'Latency Rating': '< 0.8 milliseconds',
-      'Tuning Resolution': '1/96th octave EQ adjustment'
+      'Signal Protocols': 'Dante / AVB / DMX512 / Art-Net',
+      'Matrix Routing': 'Uncompressed 4K video & 24-bit audio arrays',
+      'Acoustic RT60 target': '0.4 to 0.8 seconds (calibrated)',
+      'Hardware Longevity': 'Heavy-duty industrial class components'
     },
     showcaseImages: [
       'https://images.unsplash.com/photo-1516280440614-37939bbacd6a?auto=format&fit=crop&w=600&q=80',
@@ -120,79 +117,38 @@ export const productsData = [
     ]
   },
   {
-    slug: 'sentinel',
-    title: 'Sentinel',
-    headline: 'SENTINEL is our dedicated surveillance and security products brand, powering the CCTV Solutions we design and install. From AI-assisted analytics to centralized monitoring hardware, SENTINEL gives facility owners a smart security backbone that scales from a single site to a multi-location enterprise.',
-    shortDesc: 'SENTINEL surveillance, AV Dynamics security products, smart CCTV brand',
-    image: '/sentinal.png',
-    story: 'Sentinel is the smart nervous system of modern secure venues. By marrying optical cameras with advanced neural detection algorithms, Sentinel automatically detects physical intrusions, analyzes crowds, tracks temperatures, and identifies structural risks in real-time, sending instant telemetry alerts.',
-    valueProp: 'Unlike passive recording setups, Sentinel analyzes video feeds at the edge, offering immediate notifications and saving precious bandwidth.',
-    features: [
-      {
-        title: 'Neural Object Analysis',
-        desc: 'Instantly categorizes vehicles, assets, humans, and items, flagging unauthorized presence.'
-      },
-      {
-        title: 'Thermal Core Telemetry',
-        desc: 'Embedded long-wave infrared sensors track machinery heat and identify fire hazards before smoke.'
-      },
-      {
-        title: 'Edge Decoupled Operations',
-        desc: 'Keeps tracking actively working locally even during complete WAN network failures.'
-      }
-    ],
-    benefits: [
-      'Zero False Alarms (Advanced ML algorithms filter out shadows, wind, and animals)',
-      'Instant Emergency Sync (Direct secure integration with central command software and alarms)',
-      'Privacy-First Architecture (Filters out personal facial metrics locally to protect user privacy)'
-    ],
-    industries: ['Logistics Centers', 'Critical Utilities', 'Corporate Campus', 'Smart Venue Hubs'],
-    specifications: {
-      'AI Processing': 'Dual core edge TPU modules',
-      'Optical Resolution': '4K HDR sensor streams',
-      'Thermal Precision': '±0.2°C thermal core mapping',
-      'Encryption': 'AES-256 local and transport',
-      'PoE Powering': 'IEEE 802.3bt Type 4 support'
-    },
-    showcaseImages: [
-      'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=600&q=80',
-      'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80'
-    ]
-  },
-  {
-    slug: 'mclane',
-    title: 'Mclane',
-    headline: 'Mclane is our events and production division, supplying the technical backbone for live experiences — staging systems, mobile AV infrastructure, and production-grade equipment engineered for fast load-in and dependable performance under show conditions.',
-    shortDesc: 'Mclane events, AV Dynamics production brand, event technology equipment',
+    slug: 'mclane-productions',
+    title: 'McLane Productions',
+    headline: 'An events and production venture delivering concerts, live entertainment, large-format events and technology-driven audience experiences.',
+    shortDesc: 'Large-format concerts, live show production, and experiential staging',
     image: '/mclane.png',
-    story: 'Mclane is an enterprise-grade digital video routing powerhouse built for extreme staging. Routing uncompressed 4K video feeds with zero visual lag, Mclane connects multi-camera setups, projection systems, and large LED displays seamlessly for live television and high-profile corporate events.',
-    valueProp: 'Utilizing a robust hardware chassis and dynamic switching cards, Mclane eliminates frame-drops and guarantees perfect sync.',
+    story: 'McLane Productions engineers unforgettable physical events where creative ambition meets technical execution. We manage staging, structural rigging, line-array audio reinforcement, and pixel-mapped screens for concerts, corporate launches, and live entertainment broadcast grids.',
+    valueProp: 'With zero-margin-for-error execution, our production teams manage the full technical stack so tour managers and show producers can focus on the performance.',
     features: [
       {
-        title: 'Uncompressed 4K Routing',
-        desc: 'True color fidelity routing over long-distance single fiber feeds without compression artifacts.'
+        title: 'Experiential Stage Design',
+        desc: 'Modular stage scaffolding, structural trussing, and motion-controlled rigging for large live productions.'
       },
       {
-        title: 'Sub-Frame Matrix Switcher',
-        desc: 'Switch between video sources in less than 2 milliseconds, maintaining seamless display synchronization.'
+        title: 'Staging & Production Stacks',
+        desc: 'Dual redundant video switchers, digital audio consoles, and master show clocks.'
       },
       {
-        title: 'Modular Hot-Swap Cards',
-        desc: 'Replace HDMI, SDI, or fiber connector cards mid-show without interrupting operational status.'
+        title: 'On-site Crew Orchestration',
+        desc: 'Certified riggers, sound engineers, lighting directors, and show technicians to manage on-ground setup.'
       }
     ],
     benefits: [
-      'Zero Visual Frame Drops (Hardware-level matrix guarantees continuous stream synchronization)',
-      'Highly Versatile Inputs (Cross-converts signals automatically between analog and digital cards)',
-      'Double Backup Systems (Secondary internal power supplies step in instantly during power anomalies)'
+      'Dual-Engine Redundancy (Backup signal chains running in parallel frame-sync prevent blackouts)',
+      'Fast Load-in & Rig Setup (System components pre-configured in transport cases for rapid deployments)',
+      'Global Stream Distribution (Low-latency encoders broadcast live multi-camera feeds worldwide)'
     ],
     industries: ['Live Broadcast', 'Sports Arenas', 'Theater Production', 'Conference Centers'],
     specifications: {
-      'Routing Bandwidth': 'Up to 28.8 Tbps total throughput',
-      'Video Standards': '12G-SDI / SMPTE ST 2110 / HDMI 2.1',
-      'Switch Latency': '< 2 microseconds latency',
-      'Hot Swap Slots': '32 expandable chassis slots',
-      'Network Sync': 'PTP IEEE 1588 timing support'
+      'Staging Rigging Limits': 'Up to 25 metric tons certified capacity',
+      'Audio Output Capacity': '140dB SPL line array setups',
+      'Show Clock Protocol': 'SMPTE Timecode / PTP synchronization',
+      'Video Feeds': '12G-SDI / 4K NDI uncompressed networks'
     },
     showcaseImages: [
       'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=600&q=80',
@@ -202,37 +158,36 @@ export const productsData = [
   {
     slug: 'green-sphere',
     title: 'Green Sphere',
-    headline: "Green Sphere extends AV Dynamics' integration expertise into sustainable energy — battery energy storage systems (BESS) and solar solutions designed to power resilient, lower-carbon facilities. As venues demand more from their technology, Green Sphere ensures that power infrastructure keeps pace responsibly.",
-    shortDesc: 'Green Sphere BESS, solar energy solutions, battery energy storage systems',
+    headline: 'Energy and sustainability solutions focused on intelligent energy systems and energy storage for a more resilient future.',
+    shortDesc: 'Intelligent energy management, solar power, and battery storage',
     image: '/solar.png',
-    story: 'Green Sphere is the intelligence center for energy management. It connects directly with building management systems, AV hardware, and environmental sensors to dynamically adjust resources. By powering down unused displays, dimming LED lights, and lowering climate settings based on active occupancy, Green Sphere guarantees deep energy savings.',
-    valueProp: 'Achieve LEED and WELL building standards effortlessly with continuous automation and real-time sustainability telemetry.',
+    story: 'Green Sphere integrates advanced renewable energy technologies into corporate and commercial infrastructure. We specialize in Battery Energy Storage Systems (BESS) and high-efficiency solar arrays, managed by intelligent power telemetry systems that store and distribute energy dynamically.',
+    valueProp: 'Ensure energy resilience, reduce grid dependence, and lower your carbon footprint with automated load shifting and real-time consumption optimization.',
     features: [
       {
-        title: 'Occupancy Automation',
-        desc: 'Continuously tracks room presence using sensors and powers down AV stacks immediately after meetings.'
+        title: 'Battery Energy Storage (BESS)',
+        desc: 'Industrial lithium-iron-phosphate battery packs that store cheap off-peak power for backup use.'
       },
       {
-        title: 'Dynamic Resource Damping',
-        desc: 'Harvests external daylight and lowers internal light brightness, saving up to 35% in energy fees.'
+        title: 'Solar Grid Integration',
+        desc: 'Hybrid solar systems that feed clean power directly to operational networks.'
       },
       {
-        title: 'ESG Data Telemetry',
-        desc: 'Compiles certified, audit-ready carbon offset and energy reduction reports with one-click exports.'
+        title: 'Intelligent Load Shifting',
+        desc: 'Dynamic power redistribution during peak demand periods to lower utility tariffs.'
       }
     ],
     benefits: [
-      'Proven Cost Reductions (Lowers commercial electricity expenses from day one)',
-      'Automated ESG Compliance (Maintains real-time compliance with environmental reporting rules)',
-      'Universal IoT Support (Communicates natively with Crestron, BACnet, and Modbus hardware)'
+      'Resilient Backup Grid (Instant switchover to battery power during grid blackouts)',
+      'Drastic Utility Cost Savings (Lowers operational electricity expenses by up to 35% using stored energy)',
+      'Audit-Ready ESG Reporting (Automatic tracking and export of carbon reductions and power saving statistics)'
     ],
     industries: ['Modern Office towers', 'Academic Campuses', 'Sustainable Resorts', 'Tech Parks'],
     specifications: {
-      'Protocol Bridging': 'BACnet / Modbus / MQTT / Zigbee',
-      'Dashboard Output': 'Web-based API / CSV & PDF exports',
-      'Diagnostic Speed': '15-second polling interval',
-      'Security Core': 'Hardware TPM 2.0 cryptoprocessor',
-      'Energy Scaling': 'Up to 5,000 distinct IoT nodes'
+      'Storage Cell Chemistry': 'LiFePO4 (Lithium Iron Phosphate)',
+      'Battery Life Cycles': 'Over 6,000 charge cycles to 80% capacity',
+      'Grid Synchronization Speed': '< 16 milliseconds transfer time',
+      'Communication Bridges': 'Modbus / BACnet / MQTT connectivity'
     },
     showcaseImages: [
       'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=600&q=80',
@@ -240,39 +195,38 @@ export const productsData = [
     ]
   },
   {
-    slug: 'alchemist',
-    title: 'ALCHEMIST THE LAKE VIEWERY',
-    headline: 'Alchemist is our hospitality-focused brand, purpose-built for hotels, restaurants, lounges, and guest-facing venues. From ambient lighting and audio scenes to guest room automation, Alchemist blends technology into hospitality design so it enhances the guest experience without ever intruding on it.',
-    shortDesc: 'Alchemist hospitality tech, hotel AV solutions, guest experience technology',
+    slug: 'fb-ventures',
+    title: 'F&B Ventures',
+    headline: 'Experience-led food and beverage concepts that combine hospitality, environment, technology, design and customer engagement.',
+    shortDesc: 'Experience-led dining concepts, hospitality design, and interactive cafes',
     image: '/alchemist.png',
-    story: 'Alchemist is the brain behind modern immersive arts and cafe building architectures. A media workstation equipped with custom GPU kernels, Alchemist calculates complex particle arrays, interactive visuals, and multi-projector blending on the fly. It converts large rooms and complex hospitality spaces into interactive canvases that react to guest movements and environmental factors.',
-    valueProp: 'Alchemist blends dynamic projection mapping and motion tracking with premium ambience styling. It is designed to craft refined environments where hospitality becomes an unforgettable experiential journey.',
+    story: 'F&B Ventures reimagines dining by merging gourmet culinary execution with interactive technologies and architectural design. We build restaurants, lounges, and bespoke cafés where ambient audio-visual elements, circadian lighting controls, and gesture-responsive murals create a sensory hospitality experience.',
+    valueProp: 'We transform standard dining spaces into immersive hospitality destinations, increasing customer dwell times and brand engagement.',
     features: [
       {
-        title: 'Atmosphere & Ambience Design',
-        desc: 'Orchestrating ambient lighting, soundscapes, and digital artwork overlays to match the mood and circadian rhythm of visitors.'
+        title: 'Sensory Dinerscape Design',
+        desc: 'Coordinating spatial audio, projection mapping, and scent diffusion to match dishes.'
       },
       {
-        title: 'Culture & Identity Projection',
-        desc: 'Displaying generative digital murals that reflect brand heritage, regional art, or community culture in real-time.'
+        title: 'Atmosphere Automation',
+        desc: 'Smart lighting systems that transition color temperatures from morning sunrise to evening sunset.'
       },
       {
-        title: 'Elevated Guest Engagement',
-        desc: 'Interactive motion-tracking matrices that respond to guest movements, generating subtle particle flows as they navigate the venue.'
+        title: 'Interactive Mural Projection',
+        desc: 'Direct wall projection systems that respond to client movement and touch in real-time.'
       }
     ],
     benefits: [
-      'Bespoke Cafe Designs (Immersive interactive wall projections that shift dynamically with room occupancy)',
-      'Atmospheric Staging (Blends dynamic projections, spatial color calibration, and audio nodes)',
-      'Interactive Input Ready (Integrates with Azure Kinect, Lidar, and pressure floor mats out of the box)'
+      'Elevated Guest Dwell Time (Immersive environments encourage prolonged visits and higher spend)',
+      'Instantly Customizable Themes (Change the interior aesthetic, menu styling, or music with one touch)',
+      'Smart Operational Control (Consolidated POS, seating sensors, and lighting controls into a single manager app)'
     ],
     industries: ['Luxury Hospitality', 'Bespoke Cafes & Lounges', 'Digital Art Museums', 'Experience Galleries'],
     specifications: {
-      'Atmosphere Sync': 'Automated Circadian & Ambient light matching',
-      'Design Integration': 'Bespoke custom projection mappings & LED wraps',
-      'Cultural Asset Engine': 'Real-time generative local art rendering',
-      'Guest Tracking Scale': 'Handles up to 150 simultaneous interactive nodes',
-      'Experiential Venues': 'Luxury Cafes, Fine Dining, Premium Resorts'
+      'Projection Mapping': 'Generative particle canvas adjusting to occupancy',
+      'Acoustic Background Zones': 'Independent volume control matrices',
+      'Atmospheric Sync': 'Circadian color temperature scheduling (2200K to 6500K)',
+      'Interactive Integration': 'Depth sensors and Lidar trackers'
     },
     showcaseImages: [
       'https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=600&q=80',

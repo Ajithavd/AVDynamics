@@ -136,16 +136,19 @@ export default function Footer() {
                 <Link to="/products/nexlume" className={styles.link}>Nexlume</Link>
               </li>
               <li>
-                <Link to="/products/ndur" className={styles.link}>NDUR</Link>
+                <Link to="/products/ndurance-ai" className={styles.link}>ndurance.ai</Link>
               </li>
               <li>
-                <Link to="/products/spatial" className={styles.link}>Spatial</Link>
+                <Link to="/products/avl" className={styles.link}>AVL</Link>
               </li>
               <li>
-                <Link to="/products/sentinel" className={styles.link}>Sentinel</Link>
+                <Link to="/products/mclane-productions" className={styles.link}>McLane Productions</Link>
               </li>
               <li>
-                <Link to="/products/alchemist" className={styles.link}>Alchemist</Link>
+                <Link to="/products/green-sphere" className={styles.link}>Green Sphere</Link>
+              </li>
+              <li>
+                <Link to="/products/fb-ventures" className={styles.link}>F&B Ventures</Link>
               </li>
             </ul>
           </div>
