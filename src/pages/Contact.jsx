@@ -145,7 +145,7 @@ export default function Contact() {
                   <CheckCircle size={48} style={{ color: '#10b981', marginBottom: '1.5rem', display: 'inline-block' }} />
                   <h3 style={{ fontSize: '1.8rem', fontWeight: '800', marginBottom: '1rem' }}>Submission Received</h3>
                   <p className="body-normal">
-                    Thank you. An AVDYNAM design engineer has been assigned to your corporate query and will contact you within two hours.
+                    Thank you. An AV DYNAMICS design engineer has been assigned to your corporate query and will contact you within two hours.
                   </p>
                 </div>
               ) : (

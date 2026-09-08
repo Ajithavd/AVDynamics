@@ -607,7 +607,7 @@ into one purposeful solution. </p>
           <div className={styles.futureHeader}>
             <span className="subtitle-red">Driven By Innovation, Powered By Possibilities</span>
             <p className="body-large">
-              We believe technology should do more than function—it should transform. Through intelligent infrastructure, immersive technologies, smart surveillance, and integrated experience solutions, AVDYNAM creates environments that are smarter, safer, and designed for the future. Every project is engineered to deliver measurable impact while unlocking new possibilities.
+              We believe technology should do more than function—it should transform. Through intelligent infrastructure, immersive technologies, smart surveillance, and integrated experience solutions, AV DYNAMICS creates environments that are smarter, safer, and designed for the future. Every project is engineered to deliver measurable impact while unlocking new possibilities.
             </p>
           </div>
 
