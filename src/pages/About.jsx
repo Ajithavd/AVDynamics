@@ -91,7 +91,7 @@ as one ecosystem.
 Our work extends across surveillance, audio and acoustics, LED and visual technologies, immersive 
 environments, venue transformation, events, software and digital marketing. This multidisciplinary 
 capability allows us to move beyond isolated products and deliver complete solutions shaped around 
-the real needs of each project. a
+the real needs of each project. 
               </p>
               
             </div>
