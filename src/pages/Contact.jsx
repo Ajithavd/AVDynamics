@@ -124,7 +124,7 @@ export default function Contact() {
               <span className="subtitle-red">Enquiries</span>
               <h2 className="heading-huge" style={{ marginBottom: '2rem' }}>Initiate a Consultation</h2>
               <p className="body-normal" style={{ marginBottom: '2rem', lineHeight: '1.7' }}>
-                Whether you need ultra-fine direct view LED grids, structural acoustic isolation, spatial coordinate processing, or edge computer vision security grids, AVDYNAM engineers are ready.
+                Whether you need ultra-fine direct view LED grids, structural acoustic isolation, spatial coordinate processing, or edge computer vision security grids, AVDYNAMICS engineers are ready.
               </p>
               
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>

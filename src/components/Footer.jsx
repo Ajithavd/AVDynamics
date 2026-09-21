@@ -186,7 +186,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className={styles.bottomBar}>
           <div className={styles.copyright}>
-            © {new Date().getFullYear()} AVDYNAM. All rights reserved. Precision Engineering.
+            © {new Date().getFullYear()} AVDYNAMICS. All rights reserved. Precision Engineering.
           </div>
           <div className={styles.bottomLinks}>
             <a href="#" className={styles.bottomLink}>Privacy Policy</a>

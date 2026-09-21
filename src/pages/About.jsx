@@ -349,7 +349,7 @@ the real needs of each project.
               <div className={styles.peopleCard}>
                 <h3>Full-time and In-house</h3>
                 <p>
-                  Everyone at AVDYNAM is a full-time, in-house expert. That means total focus, seamless communication, and a deep commitment to delivering our best every time.
+                  Everyone at AVDYNAMICS is a full-time, in-house expert. That means total focus, seamless communication, and a deep commitment to delivering our best every time.
                 </p>
               </div>
 
@@ -376,7 +376,7 @@ the real needs of each project.
             <span className="subtitle-red">Timeline / Journey</span>
             <h2 className="heading-huge" style={{ color: 'var(--text-light)', marginBottom: '1.5rem' }}>Timeline / Journey</h2>
             <p className="body-large" style={{ maxWidth: '850px', margin: '0 auto', color: 'var(--text-muted-dark)', lineHeight: '1.7' }}>
-              An interactive milestone timeline tracing AV Dynamics' growth — from founding and first flagship installation, through expansion into proprietary product lines (Nexlume, NDUR, SPATIAL, SENTINEL, and more), to the present-day multi-brand technology group.
+              An interactive milestone timeline tracing AVDynamics growth — from founding and first flagship installation, through expansion into proprietary product lines (Nexlume, NDUR, SPATIAL, SENTINEL, and more), to the present-day multi-brand technology group.
             </p>
           </div>
 

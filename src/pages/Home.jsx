@@ -655,7 +655,7 @@ into one purposeful solution. </p>
           </div>
 
           <p className={styles.futureFooter}>
-            The next generation of spaces will be adaptive, immersive, and connected. Through technology, creativity, and engineering excellence, AVDYNAM is shaping environments that are smarter, more sustainable, and built to inspire the future.
+            The next generation of spaces will be adaptive, immersive, and connected. Through technology, creativity, and engineering excellence, AVDYNAMICS is shaping environments that are smarter, more sustainable, and built to inspire the future.
           </p>
         </div>
       </section>
